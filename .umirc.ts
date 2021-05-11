@@ -1,9 +1,7 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'AppWorks';
-
 export default defineConfig({
-  title: repo,
+  title: 'AppWorks',
   favicon:
     'https://img.alicdn.com/imgextra/i4/O1CN01CHZyp9299xV7EhXza_!!6000000008026-2-tps-128-128.png',
   logo:
@@ -12,8 +10,8 @@ export default defineConfig({
   mode: 'site',
   hash: true,
   // Because of using GitHub Pages
-  base: `/${repo}/`,
-  publicPath: `/${repo}/`,
+  base: '/',
+  publicPath: '/',
   navs: [
     null,
     {

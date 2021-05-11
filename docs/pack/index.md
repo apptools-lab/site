@@ -4,7 +4,11 @@ title: Components
 nav:
   title: Components
   path: /components
----```jsx
+---
+
+## Foo
+
+```jsx
 /**
  * inline: true
  */
