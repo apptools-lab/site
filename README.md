@@ -4,14 +4,6 @@ A doc template can assist you to develop libraries & write docs.
 
 English | [简体中文](./README.zh-CN.md)
 
-## 🚀 How to use?
-
-![](https://gw.alipayobjects.com/zos/bmw-prod/91791904-cdde-4408-959d-72fd0c9049b1/kj80x6lv_w1918_h352.png)
-
-## ✨ Online preview
-
-https://umijs.github.io/dumi-template/
-
 ## 📒 Catalog Introduction
 
 ```
@@ -31,104 +23,13 @@ The rest of the documents can be consulted by yourself.
 
 ## 🤖 Command introduction
 
-| Name                    | Description               | Remarks                                                                                                            |
-| ----------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `npm run start`         | Project begining          | Document usage [dumi](https://github.com/umijs/dumi), component development and documentation development together |
-| `npm run test`          | Component test            | -                                                                                                                  |
-| `npm run test:coverage` | Code coverage review      | -                                                                                                                  |
-| `npm run prettier`      | Code prettier             | -                                                                                                                  |
-| `npm run build`         | Component packaging       | Use [father](https://github.com/umijs/father)                                                                      |
-| `npm run release`       | Component package release | -                                                                                                                  |
-| `npm run docs:build`    | Document packaging        | -                                                                                                                  |
-| `npm run docs:deploy`   | Document release          | The default is to use GitHub Pages                                                                                 |
-| `npm run deploy`        | Document package release  | -                                                                                                                  |
-
-## Who are using dumi?
-
-<table>
-  <tr>
-    <td width="160" align="center">
-      <a target="_blank" href="https://ahooks.js.org/">
-        <img src="https://ahooks.js.org/logo.svg" height="40" />
-        <br />
-        <strong>ahooks</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://alitajs.com/">
-        <img src="https://user-images.githubusercontent.com/11746742/104428726-c2c90300-55bf-11eb-9b84-d52a86050b9a.png" height="40" />
-        <br />
-        <strong>alitajs</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://ggeditor.com">
-        <img src="https://img.alicdn.com/tfs/TB1FFA1CFP7gK0jSZFjXXc5aXXa-214-200.png" height="40" />
-        <br />
-        <strong>GGEditor</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://actions-cool.github.io/issues-helper/">
-        <img src="https://avatars1.githubusercontent.com/u/73879334?s=200&v=4" height="40" />
-        <br />
-        <strong>issues-helper</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://juejin-im.github.io/open-source/">
-        <img src="https://avatars3.githubusercontent.com/u/69633008?s=200&v=4" height="40" />
-        <br />
-        <strong>juejin-im</strong>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="160" align="center">
-      <a target="_blank" href="https://lightproxy.org">
-        <img src="https://user-images.githubusercontent.com/5436704/81533849-83e00f00-9399-11ea-943d-ac5fd4653906.png" height="40" />
-        <br />
-        <strong>LightProxy</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://procomponents.ant.design/">
-        <img src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" height="40" />
-        <br />
-        <strong>Pro Components</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://github.com/react-component">
-        <img src="https://avatars3.githubusercontent.com/u/9441414?s=200&v=4" height="40" />
-        <br />
-        <strong>react-component</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://remaxjs.org">
-        <img src="https://gw.alipayobjects.com/mdn/rms_b5fcc5/afts/img/A*1NHAQYduQiQAAAAAAAAAAABkARQnAQ" height="40" />
-        <br />
-        <strong>Remax</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://umijs.org">
-        <img src="https://gw.alipayobjects.com/zos/bmw-prod/598d14af-4f1c-497d-b579-5ac42cd4dd1f/k7bjua9c_w132_h130.png" height="40" />
-        <br />
-        <strong>UmiJS</strong>
-      </a>
-    </td>
-  </tr>
-</table>
-
-### README Badge
-
-Using dumi ? Add a README badge to show it off: [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue)](https://github.com/umijs/dumi)
-
-```
-[![dumi](https://img.shields.io/badge/docs%20by-dumi-blue)](https://github.com/umijs/dumi)
-```
+| Name                    | Description          | Remarks                                                                                                            |
+| ----------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `npm run start`         | Project begining     | Document usage [dumi](https://github.com/umijs/dumi), component development and documentation development together |
+| `npm run build`         | Component packaging  | -                                                                                                                  |
+| `npm run test`          | Component test       | -                                                                                                                  |
+| `npm run test:coverage` | Code coverage review | -                                                                                                                  |
+| `npm run prettier`      | Code prettier        | -                                                                                                                  |
 
 ## Discuss group
 
