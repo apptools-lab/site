@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "site",
+  "name": "AppWorks",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
