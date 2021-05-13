@@ -13,7 +13,7 @@ hero:
  */
 
 import React from 'react';
-import { Foo } from 'site';
+import { Foo } from 'AppWorks';
 
 export default () => {
   return (

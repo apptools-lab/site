@@ -14,7 +14,7 @@ nav:
  */
 
 import React from 'react';
-import { Foo } from 'site';
+import { Foo } from 'AppWorks';
 
 export default () => <Foo title="Component1" />;
 ```
