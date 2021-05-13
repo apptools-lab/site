@@ -1,6 +1,6 @@
 ---
 order: 1
-title: 套件
+title: 关于 AppWorks
 nav:
   title: 套件
   path: /pack
