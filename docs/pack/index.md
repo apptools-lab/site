@@ -1,20 +1,11 @@
 ---
 order: 1
-title: Components
+title: Pack
 nav:
-  title: Components
-  path: /components
+  title: Pack
+  path: /pack
 ---
 
-## Foo
+## Pack
 
-```jsx
-/**
- * inline: true
- */
-
-import React from 'react';
-import { Foo } from 'AppWorks';
-
-export default () => <Foo title="Component1" />;
-```
+foo
