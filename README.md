@@ -1,39 +1,22 @@
-# 🌟 Dumi Template
+> 在修改文档之前，请先阅读此文章
 
-A doc template can assist you to develop libraries & write docs.
-
-English | [简体中文](./README.zh-CN.md)
-
-## 📒 Catalog Introduction
+### 目录结构
 
 ```
-├── docs                   Component documentation
-│   ├── index.md           Home page
-│   └── **.**              Site Directory Document
-├── src                    Component home directory
-│   ├── index.ts           Component registration
-│   └── Foo                Component development
-├── .eslintrc.js           eslint config
-├── .fatherrc.ts           father config
-├── .umirc.ts              dumi config
-└── tsconfig.json          typescript config
+- foo.md      文档内容, 可以有文件夹嵌套
+- yoo.md
 ```
 
-The rest of the documents can be consulted by yourself.
+### 文档结构
 
-## 🤖 Command introduction
+```markdown
+---
+title: 文档标题(必须有)
+order: 可选, 文档顺序, 数字越小越在前面, 否则按照字母序
+---
 
-| Name                    | Description          | Remarks                                                                                                            |
-| ----------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `npm run start`         | Project begining     | Document usage [dumi](https://github.com/umijs/dumi), component development and documentation development together |
-| `npm run build`         | Component packaging  | -                                                                                                                  |
-| `npm run test`          | Component test       | -                                                                                                                  |
-| `npm run test:coverage` | Code coverage review | -                                                                                                                  |
-| `npm run prettier`      | Code prettier        | -                                                                                                                  |
+markdown 格式的文档内容
+```
 
-## Discuss group
-
-<div>
-  <img src="https://gw.alipayobjects.com/zos/bmw-prod/ec249703-be12-416c-8f33-297e47d9439c/kjy5ls84_w1004_h1346.png" width="300" />
-  <img src="https://gw.alipayobjects.com/zos/bmw-prod/c18bc2a5-719a-48ca-b225-c79ef88bfb43/k7m10ymd_w1004_h1346.jpeg" width="300" />
-</div>
+平台侧支持了 order 配置，其他同 [VuePress](https://www.vuepress.cn/)
+配置目录文件夹侧边栏，请见 `docs/.vuepress/utils/getSidebar.js`
