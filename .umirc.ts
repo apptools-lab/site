@@ -47,7 +47,7 @@ export default defineConfig({
             path: '/zh-CN/pack/basic/create-project',
           },
           {
-            title: '调试预览',
+            title: '预览调试',
             path: '/zh-CN/pack/basic/debug',
           },
           {

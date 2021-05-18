@@ -84,7 +84,7 @@ title: 预览调试
     {
       "label": "Start Background Tasks",
       "type": "npm",
-      "script": "start",
+      "script": "start", // npm run start
       "isBackground": true,
       "problemMatcher": {
         "pattern": {
@@ -92,7 +92,7 @@ title: 预览调试
         },
         "background": {
           "beginsPattern": ".*",
-          "endsPattern": ".*Compiled.*"
+          "endsPattern": ".*Compiled.*" // 控制台中，项目构建完成时出现的字段
         }
       }
     },
