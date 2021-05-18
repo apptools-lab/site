@@ -4,13 +4,14 @@ module.exports = {
   title: 'Iceworks',
   markdown: {
     lineNumbers: true,
-    extendMarkdown: (md) => {
+    extendMarkdown: md => {
       md.use(require('markdown-it-multimd-table'));
     },
   },
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Pack', link: '/pack/about' },
+      { text: 'ToolKit', link: '/toolkit/about' },
       {
         text: '其它',
         ariaLabel: 'Menu',

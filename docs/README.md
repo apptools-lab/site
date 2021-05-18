@@ -4,7 +4,7 @@ heroImage: /logo.png
 heroText: Iceworks
 tagline: 可视化智能开发助手
 actionText: 快速开始
-actionLink: /quick-start
+actionLink: /pack/quick-start
 features:
   - title: 可视化开发
     details: Iceworks 可视化开发提供两个基本功能：可视化搭建和可视化配置。
