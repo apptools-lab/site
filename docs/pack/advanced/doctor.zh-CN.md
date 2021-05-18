@@ -11,7 +11,7 @@ title: 代码质量
 
 ### 1. 编码规范
 
-[@appworks/spec]() 遵循阿里巴巴前端编码规范，并提供了 [ICE](http://ice.work/) 和 [Rax](https://rax.js.org/) 项目的最佳实践，有助于提高团队内协助的效率以及代码的可维护性。
+[@appworks/spec](https://www.npmjs.com/package/@appworks/spec) 遵循阿里巴巴前端编码规范，并提供了 [ICE](http://ice.work/) 和 [Rax](https://rax.js.org/) 项目的最佳实践，有助于提高团队内协助的效率以及代码的可维护性。
 
 包含 ESLint、stylelint、commitlint 及 Prettier 配置。
 
