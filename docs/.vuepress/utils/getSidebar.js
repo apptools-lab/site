@@ -9,7 +9,7 @@ const BASE_PATH = path.join(__dirname, '../../');
 function getSidebar() {
   const result = {};
 
-  configs.forEach((config) => {
+  configs.forEach(config => {
     function getMarkdownOrder(filename) {
       return (matter(fs.readFileSync(path.join(BASE_PATH, config.dirname, filename), 'utf-8')).data || {}).order;
     }
@@ -25,13 +25,13 @@ function getSidebar() {
     const docs = glob.sync('**/*.md', { cwd: path.join(BASE_PATH, config.dirname), ignore: 'README.md' });
 
     // 整理数据结构
-    docs.forEach((doc) => {
+    docs.forEach(doc => {
       const dirname = path.parse(doc).dir;
-      const catalog = config.children.find((config) => config.dirname === dirname);
+      const catalog = config.children.find(config => config.dirname === dirname);
 
       if (dirname && catalog) {
         // 将说有目录下文档 合成一个对象
-        const catalogItem = items.find((item) => item.dirname === dirname);
+        const catalogItem = items.find(item => item.dirname === dirname);
         if (!catalogItem) {
           items.push({
             ...catalog,
@@ -48,9 +48,8 @@ function getSidebar() {
 
     // 排序最顶层侧边栏
     items.sort(compareOrder);
-    console.log(33);
     // 排序目录下侧边栏
-    items.forEach((item) => {
+    items.forEach(item => {
       if (item.dirname) {
         item.children.sort(compareOrder);
 
@@ -62,7 +61,6 @@ function getSidebar() {
     result[`/${config.dirname}/`] = items;
   });
 
-  console.log(result);
   return result;
 }
 
