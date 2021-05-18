@@ -4,7 +4,7 @@ module.exports = {
   title: 'Iceworks',
   markdown: {
     lineNumbers: true,
-    extendMarkdown: md => {
+    extendMarkdown: (md) => {
       md.use(require('markdown-it-multimd-table'));
     },
   },
