@@ -5,7 +5,6 @@ title: 创建项目
 
 # 创建项目
 
-
 ## 应用创建器
 
 当您安装了[AppWorks 套件](https://marketplace.visualstudio.com/items?itemName=iceworks-team.iceworks)之后，VS Code 的活动栏上会增加一个「Appworks 图标」，单击此图标进入应用创建器面板。
@@ -24,7 +23,7 @@ title: 创建项目
 
 ## 启动项目
 
-您可以使用我们提供的**快捷操作**启动项目
+您可以使用我们提供的**快捷操作**启动项目 (详细说明请见[预览调试](/pack/basic/debug))
 
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01prjQXh22vPDxx5QQt_!!6000000007182-2-tps-1247-970.png" alt="示例用图" style="transform: scale(.95, .95); box-shadow: 8px 8px 10px gray;border-radius:1%;" />
 
