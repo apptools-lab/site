@@ -27,4 +27,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           BRANCH: gh-pages
-          FOLDER: docs-dist
+          FOLDER: docs/.vuepress/dist
