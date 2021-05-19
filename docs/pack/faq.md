@@ -1,6 +1,6 @@
 ---
-order: 3
 title: FAQ
+order: 3
 ---
 
 ## FAQ
