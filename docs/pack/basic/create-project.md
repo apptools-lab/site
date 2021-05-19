@@ -8,7 +8,7 @@ title: 创建项目
 
 ## 应用创建器
 
-当您安装了插件之后，VS Code 的活动栏上会增加一个「Appworks 图标」，单击此图标进入应用管理器面板。
+当您安装了[AppWorks 套件](https://marketplace.visualstudio.com/items?itemName=iceworks-team.iceworks)之后，VS Code 的活动栏上会增加一个「Appworks 图标」，单击此图标进入应用创建器面板。
 
 1. 使用模版创建项目，点击下一步。
 2. 输入项目名称和项目路径。
