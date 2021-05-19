@@ -10,8 +10,7 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: 'Pack', link: '/pack/about' },
-      { text: 'ToolKit', link: '/toolkit/about' },
+      { text: '文档', link: '/pack/about' },
       {
         text: '其它',
         ariaLabel: 'Menu',

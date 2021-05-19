@@ -14,14 +14,4 @@ module.exports = [
       },
     ],
   },
-  {
-    dirname: 'toolkit',
-    children: [
-      {
-        dirname: 'basic',
-        title: '基础教程',
-        order: 2,
-      },
-    ],
-  },
 ];
