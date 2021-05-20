@@ -41,9 +41,7 @@ order: 1
 对项目进行 3 个维度的检测，包含：
 
 1. **阿里 Lint 规范检测：** 通过 @iceworks/spec 扫描代码，并提供一键修复功能。（提供默认配置，用户项目的 @iceworks/spec 配置优先级最高）
-
 2. **可维护度：** 通过 [typhonjs-escomplex](https://www.npmjs.com/package/typhonjs-escomplex) 扫描代码。复杂度评分低说明程序代码的判断逻辑复杂，可能质量低且难于阅读、测试和维护。
-
 3. **重复度：** 通过 [jscpd](https://www.npmjs.com/package/jscpd) 扫描代码。重复的代码一旦出错，意味着加倍的工作量和持续的不可控。建议对项目定期进行代码重复度检测。减少冗余代码，进行代码抽象和重构。
 
 ## 4. 构建报告
