@@ -3,19 +3,17 @@ title: 代码质量
 order: 1
 ---
 
-## 代码质量
+# 代码质量
 
-本篇文档主要介绍在团队开发过程中，如何做到代码质量的管控与提升。首先需要有一套规范，再通过 AppWorks 持续帮助我们在实践的过程中，持续提升代码质量。
+在团队开发过程中，AppWorks 帮助实现代码质量的管控与提升。AppWorks 基于大量企业级项目实践产出质量评估模型，提供提升质量的建议和自动化完善功能，持续提升代码质量。
 
-**PS：请先安装 [AppWorks 套件](https://marketplace.visualstudio.com/items?itemName=iceworks-team.iceworks)**
-
-### 1. 编码规范
+## 1. 编码规范
 
 [@appworks/spec](https://www.npmjs.com/package/@appworks/spec) 遵循阿里巴巴前端编码规范，并提供了 [ICE](http://ice.work/) 和 [Rax](https://rax.js.org/) 项目的最佳实践，有助于提高团队内协助的效率以及代码的可维护性。
 
-包含 ESLint、stylelint、commitlint 及 Prettier 配置。
+规范包含 ESLint、stylelint、commitlint 及 Prettier 的相关规则。
 
-### 2. 自动修复
+## 2. 自动修复
 
 根据文档修改 VS Code 配置后，即可永久享受代码自动修复。
 
@@ -31,9 +29,9 @@ order: 1
 
 ![img](https://img.alicdn.com/imgextra/i3/O1CN01NE68vR1JqE2EhYWB6_!!6000000001079-1-tps-750-476.gif)
 
-### 3. 代码检测
+## 3. 质量检测
 
-为实现团队代码规范的统一，并提升和改善团队代码质量，AppWorks 提供了 Doctor 解决方案。该方案目前包括多场景统一的 ESLint 规则配置、多维度的代码衡量标准、执行分析扫描代码及代码修复等模块。通过各个模块协调配合，评估质量评分并修复规范问题，在降低维护成本、提升执行效率的同时保障代码规范的统一。
+为实现团队代码规范的统一，并提升和改善团队代码质量，AppWorks 提供了 Doctor 解决方案。该方案目前包括多场景统一的 ESLint 规则配置、多维度的代码衡量标准、执行分析扫描代码及代码修复等模块。通过各个模块协调配合，评估质量评分并修复规范问题，保障代码规范的统一。
 
 1. 通过 `⇧⌘P` 或 `Ctrl+Shift+P` 快捷键唤醒命令面板
 2. 输入 `AppWorks: 扫描代码` 激活插件
@@ -48,7 +46,7 @@ order: 1
 
 3. **重复度：** 通过 [jscpd](https://www.npmjs.com/package/jscpd) 扫描代码。重复的代码一旦出错，意味着加倍的工作量和持续的不可控。建议对项目定期进行代码重复度检测。减少冗余代码，进行代码抽象和重构。
 
-### 4. 构建报告
+## 4. 构建报告
 
 （仅支持阿里内部工程）当您的项目执行构建部署时，将根据项目质量情况发送构建报告。
 

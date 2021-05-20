@@ -3,7 +3,7 @@ title: 代码补全
 order: 5
 ---
 
-## 代码补全
+# 代码补全
 
 代码补全 (Code Completion) 提供即时类名、方法名和关键字等预测，辅助开发人员编写代码，大幅提升开发效率。
 
@@ -11,9 +11,7 @@ order: 5
 
 AppWorks 增强了前端开发者经常使用的 JS 及样式相关文件的代码补全体验。
 
-**PS：请先安装 [AppWorks 套件](https://marketplace.visualstudio.com/items?itemName=iceworks-team.iceworks)**
-
-### JS 文件
+## JS 文件
 
 若您的项目基于 React 开发。当您的项目中包含 typings 文件或使用由 TypeScript 开发的组件，可享受同 `.ts` 和 `.tsx` 一样的代码补全体验。
 
@@ -25,19 +23,19 @@ AppWorks 增强了前端开发者经常使用的 JS 及样式相关文件的代�
 - React 业务组件 Props 的代码补全
 - MTOP API 自动补全
 
-#### 1. Rax 工程
+### 1. Rax 工程
 
 使用 JS 开发的业务组件及 [Rax Components](https://github.com/raxjs/rax-components) 代码补全：
 
 ![img](https://img.alicdn.com/imgextra/i2/O1CN01D6Zb3r1b7wpFzjWyk_!!6000000003419-1-tps-900-513.gif)
 
-#### 2. React 工程
+### 2. React 工程
 
 使用 JS 开发的业务组件的代码补全：
 
 ![img](https://img.alicdn.com/imgextra/i4/O1CN01VVzQRF1NkVYGN3rrg_!!6000000001608-1-tps-900-513.gif)
 
-### 样式文件
+## 样式文件
 
 VS Code 对于样式文件的代码补全优化较少，AppWorks 提供了：
 
@@ -48,6 +46,10 @@ VS Code 对于样式文件的代码补全优化较少，AppWorks 提供了：
 
 示例如下：
 
+在 JSX / TSX 文件中编辑组件的 className 及 style 属性时给予自动补全提醒，值预览及定义跳转。
+
 ![img](https://img.alicdn.com/imgextra/i2/O1CN01fiRbHN1gY7XQOSAlk_!!6000000004153-1-tps-750-545.gif)
+
+行内样式自动补全，同时支持 SASS 变量的跳转及预览。
 
 ![img](https://img.alicdn.com/imgextra/i1/O1CN01eK13T81wvy0wwt2v5_!!6000000006371-1-tps-750-546.gif)
