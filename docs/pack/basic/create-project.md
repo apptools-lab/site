@@ -19,13 +19,14 @@ title: 创建项目
 <img src="https://img.alicdn.com/imgextra/i3/O1CN011fIOD21fEb2aKShWh_!!6000000003975-1-tps-1220-942.gif" alt="示例用图" style="transform: scale(.95, .95); box-shadow: 8px 8px 10px gray;border-radius:1%;"  />
 
 ### 创建自定义应用
+
 在应用创建器中，您还可以使用**自定义模版**创建应用。
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01bUlARJ24grswcdeuC_!!6000000007421-2-tps-1276-811.png" alt="示例用图" style="transform: scale(.95, .95); box-shadow: 8px 8px 10px gray;border-radius:1%;"  />
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01g549wM1R0wcCJ8P1O_!!6000000002050-2-tps-2722-1488.png" alt="示例用图" style="transform: scale(.95, .95); box-shadow: 8px 8px 10px gray;border-radius:1%;"  />
 
 ### 创建 DEF 应用
 
-除此之外，您还可以通过应用创建器创建DEF应用。
+除此之外，您还可以通过应用创建器创建 DEF 应用。
 
 <img src="https://img.alicdn.com/imgextra/i3/O1CN017MT6It1wBi0ipGhxG_!!6000000006270-2-tps-2198-1536.png" alt="示例用图" style="transform: scale(.95, .95); box-shadow: 8px 8px 10px gray;border-radius:1%;"  />
 
@@ -33,7 +34,7 @@ title: 创建项目
 
 ## 应用设置
 
-您可以通过「AppWorks 套件」提供可视化设置更便捷地设置npm包管理工具和镜像源。
+您可以通过「AppWorks 套件」提供可视化设置更便捷地设置 npm 包管理工具和镜像源。
 不仅如此，您还可以添加自己**自定义物料源**，
 
 <img src="https://img.alicdn.com/imgextra/i2/O1CN01oZ51VM21WqMpQGDEM_!!6000000006993-0-tps-1350-844.jpg" alt="示例用图" style="transform: scale(.95, .95); box-shadow: 8px 8px 10px gray;border-radius:1%;"  />
