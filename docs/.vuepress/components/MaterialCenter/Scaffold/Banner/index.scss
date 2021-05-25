@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  height: 380px;
+  background-color: #6875e9;
+  background-image: url(https://img.alicdn.com/tfs/TB1ZjJZDsbpK1RjSZFyXXX_qFXa-3800-1778.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0;
+
+  .content {
+    position: relative;
+    max-width: 1200px;
+    height: 380px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .title {
+      margin: 0 0 20px;
+      color: #fff;
+      font-size: 42px;
+      line-height: normal;
+    }
+
+    .description {
+      margin: 0;
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+}

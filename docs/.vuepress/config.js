@@ -16,7 +16,8 @@ module.exports = {
         ariaLabel: 'Menu',
         items: [
           { text: '自定义物料', link: '/materials/about' },
-          { text: '官方物料', link: '/materials/about' },
+          { text: '官方模板', link: '/materialCenter/scaffold' },
+          { text: '官方区块', link: '/materialCenter/block' },
         ],
       },
       {
