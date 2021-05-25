@@ -14,4 +14,19 @@ module.exports = [
       },
     ],
   },
+  {
+    dirname: 'materials',
+    children: [
+      {
+        dirname: 'guide',
+        title: '开发指南',
+        order: 3,
+      },
+      {
+        dirname: 'reference',
+        title: '参考',
+        order: 4,
+      },
+    ],
+  },
 ];

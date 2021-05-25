@@ -12,6 +12,14 @@ module.exports = {
     nav: [
       { text: '文档', link: '/pack/about' },
       {
+        text: '物料',
+        ariaLabel: 'Menu',
+        items: [
+          { text: '自定义物料', link: '/materials/about' },
+          { text: '官方物料', link: '/materials/about' },
+        ],
+      },
+      {
         text: '其它',
         ariaLabel: 'Menu',
         items: [
