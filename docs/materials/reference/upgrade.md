@@ -42,9 +42,7 @@ $ npm rm --save-dev ice-scripts ice-plugin-component ice-plugin-fusion ice-plugi
     [
       "build-plugin-moment-locales",
       {
-        "locales": [
-          "zh-cn"
-        ]
+        "locales": ["zh-cn"]
       }
     ]
   ]

@@ -19,7 +19,7 @@ $ iceworks init
 {
   "materialConfig": {
     "type": "react", // 字符串，指定当前物料的前端框架类型 eg: 'react', 'vue', 'angular'，请勿随意更改
-    "template": "@icedesign/ice-react-material-template", // 记录当前物料初始化时的物料模版，当添加物料时，将依赖这个值获取物料模版，请勿随意更改
+    "template": "@icedesign/ice-react-material-template" // 记录当前物料初始化时的物料模版，当添加物料时，将依赖这个值获取物料模版，请勿随意更改
   }
 }
 ```

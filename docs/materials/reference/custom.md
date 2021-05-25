@@ -9,14 +9,14 @@ iceworks 初始化物料项目时可以选择一些内置的模板，同样也�
 
 目前，基于 iceworks 可以使用的物料模板列表如下：
 
-|        模板 npm 包名        | 是否内置|   说明   |   备注  |
-|----------------------------|-------|----------|--------|
-|@icedesign/ice-react-ts-material-template|是| React+TypeScript   |     |
-|@icedesign/ice-react-material-template|是|  React+JavaScript  |     |
-|@icedesign/ice-vue-material-template|是|  Vue  | 暂不支持业务组件    |
-|@icedesign/rax-template              |是| Rax+TypeScript |  |
-@icedesign/template-rax-js            | 否 | Rax+JavaScript | |
-|@icedesign/material-chart-template|否| React+图表   | 仅支持业务组件开发    |
+| 模板 npm 包名                             | 是否内置 | 说明             | 备注               |
+| ----------------------------------------- | -------- | ---------------- | ------------------ |
+| @icedesign/ice-react-ts-material-template | 是       | React+TypeScript |                    |
+| @icedesign/ice-react-material-template    | 是       | React+JavaScript |                    |
+| @icedesign/ice-vue-material-template      | 是       | Vue              | 暂不支持业务组件   |
+| @icedesign/rax-template                   | 是       | Rax+TypeScript   |                    |
+| @icedesign/template-rax-js                | 否       | Rax+JavaScript   |                    |
+| @icedesign/material-chart-template        | 否       | React+图表       | 仅支持业务组件开发 |
 
 对于 CLI init 时没有询问的模板，可以通过 `iceworks init material @icedesign/material-chart-template` 的方式自定义模板名称。
 

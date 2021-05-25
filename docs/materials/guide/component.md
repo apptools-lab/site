@@ -73,7 +73,9 @@ export default function ExampleComponent(props) {
   const { type, ...others } = props;
 
   return (
-    <div className="ExampleComponent" {...others}>Hello ExampleComponent</div>
+    <div className="ExampleComponent" {...others}>
+      Hello ExampleComponent
+    </div>
   );
 }
 ```
@@ -157,7 +159,7 @@ order: 1
 
 ```bash
 demo/
-├── simple.md                          
+├── simple.md
 ├── size.md
 ├── type.md
 ```
@@ -165,11 +167,11 @@ demo/
 但是某些情况下，我们的业务组件可能会导出多个组件，此时可以通过目录嵌套来展示多个组件的文档：
 
 ```
-├── demo/                           
-│   ├── ComponentA/              
+├── demo/
+│   ├── ComponentA/
 │   │  ├── simple.md
 │   │  └── simple2.md
-│   ├── ComponentB/                
+│   ├── ComponentB/
 │   │  ├── simple.md
 │   └──└── simple2.md
 ```
@@ -185,9 +187,12 @@ demo/
 ```json
 {
   "plugins": [
-    ["build-plugin-component", {
-      // ...options
-    }]
+    [
+      "build-plugin-component",
+      {
+        // ...options
+      }
+    ]
   ]
 }
 ```
@@ -225,12 +230,8 @@ demo/
 
 ```json
 {
-  "babelPlugins": [
-    ["babel-plugin-add-module-exports", { "addDefaultProperty": true }]
-  ],
-  "plugins": [
-    "build-plugin-component"
-  ]
+  "babelPlugins": [["babel-plugin-add-module-exports", { "addDefaultProperty": true }]],
+  "plugins": ["build-plugin-component"]
 }
 ```
 
@@ -245,9 +246,7 @@ demo/
 
 ```json
 {
-  "babelOptions": [
-    { "name": "@babel/preset-env", "options": { "module": false } }
-  ]
+  "babelOptions": [{ "name": "@babel/preset-env", "options": { "module": false } }]
 }
 ```
 
@@ -324,6 +323,7 @@ demo/
 插件内置了 npm 包 `template-component-demo` 作为组件开发及构建时的 demo 预览，可以通过指定 `demoTemplate` 对进行自定义。
 
 demo 预览组件默认接受如下参数：
+
 - `readmeData`：readme.md 文件中的解析数据
 - `demoData`：demo 文件夹下 markdowm 内容解析的数据
 - `env`：当前运行环境 `development|production`
@@ -360,9 +360,7 @@ demo 预览组件默认接受如下参数：
 {
   "library": "ExampleComponent",
   "libraryTarget": "umd",
-  "plugins": [
-    "build-plugin-component"
-  ]
+  "plugins": ["build-plugin-component"]
 }
 ```
 
