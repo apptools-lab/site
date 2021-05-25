@@ -1,21 +1,24 @@
 <template>
-  <h1 class="demo">
-    {{ msg }}
-  </h1>
+  <div class="content">
+    <Banner />
+  </div>
 </template>
 
 <script>
+import Banner from './Banner/';
+
 export default {
-  data() {
-    return {
-      msg: 'Hello this is <Test>',
-    };
+  components: {
+    Banner,
   },
 };
 </script>
 
 <style scoped>
-.demo {
-  color: green;
+/* 父同期默认 740px，避免影响其他页面，需全屏展示的组件自行设置宽度 */
+.content {
+  margin-top: 25px !important;
+  width: 100vw;
+  margin-left: calc(0px - 50vw + 740px / 2);
 }
 </style>
