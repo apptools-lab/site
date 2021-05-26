@@ -13,6 +13,6 @@ order: 8
 
 ![](https://img.alicdn.com/tfs/TB1GosubCR26e4jSZFEXXbwuXXa-1039-743.png)
 
-接着就可以在 Iceworks 里通过物料新建项目、拼装页面了。关于 Iceworks 更详细的使用，请查看 [Iceworks 文档](https://ice.work/docs/iceworks/about)。
+接着就可以在 Iceworks 里通过物料新建项目、拼装页面了。关于 Iceworks 更详细的使用，请查看 [Iceworks 文档](/pack/about.md)。
 
 Iceworks 生成的物料数据是一份不包含物料源码的元数据，当用户在 Iceworks 中添加物料 URL 后，Iceworks 会向该 URL 请求物料数据，根据物料数据在页面中展示当前物料集合包含的组件、区块和项目。当用户选择使用物料时，Iceworks 再通过 npm 下载源码。

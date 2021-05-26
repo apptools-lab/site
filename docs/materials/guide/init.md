@@ -13,7 +13,7 @@ $ mkdir my-materials && cd my-materials
 $ iceworks init
 ```
 
-执行 init 命令后，默认创建完整的物料项目，如需独立开发业务组件，请参考[《开发独立业务组件》](/docs/materials/reference/dev.md)。初始化完成后，在项目根目录 `package.json` 中，iceworks 会生成一个 `materialConfig` 字段，这个字段存储了一些当前物料的信息及配置：
+执行 init 命令后，默认创建完整的物料项目，如需独立开发业务组件，请参考[《开发独立业务组件》](/materials/reference/custom.md)。初始化完成后，在项目根目录 `package.json` 中，iceworks 会生成一个 `materialConfig` 字段，这个字段存储了一些当前物料的信息及配置：
 
 ```json
 {
