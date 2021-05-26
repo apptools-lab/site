@@ -1,6 +1,6 @@
 <template>
   <div class="body">
-    <Card v-for="scaffold in list" :key="scaffold.repository" :scaffold="scaffold" />
+    <Card v-for="block in list" :key="block.repository" :block="block" />
   </div>
 </template>
 
@@ -16,13 +16,13 @@ export default {
     selectedCategory: {
       type: String,
     },
-    scaffolds: {
+    blocks: {
       type: Array,
       default: [],
     },
   },
   watch: {
-    scaffolds: function () {
+    blocks: function () {
       this.updateList(this.selectedCategory);
     },
     selectedCategory: function (val) {
@@ -36,9 +36,9 @@ export default {
     updateList(selectedCategory) {
       let list = [];
       if (selectedCategory === '全部') {
-        list = this.scaffolds;
+        list = this.blocks;
       } else {
-        list = this.scaffolds.filter((scaffold) => scaffold.category === selectedCategory);
+        list = this.blocks.filter((block) => block.category === selectedCategory);
       }
       this.list = list;
     },
