@@ -1,14 +1,28 @@
 <template>
-  <div class="container">111</div>
+  <div class="container">
+    <Header
+      :categories="categories"
+      :selectedCategory="selectedCategory"
+      :updateSelectedCategory="updateSelectedCategory"
+    />
+  </div>
 </template>
 
 <script>
+import Header from './Header';
+
 export default {
   name: 'List',
+  components: {
+    Header,
+  },
   mounted() {
     this.getData();
   },
   methods: {
+    updateSelectedCategory(key) {
+      this.selectedCategory = key;
+    },
     getData() {
       fetch('https://ice.alicdn.com/assets/materials/react-materials.json')
         .then((response) => response.json())

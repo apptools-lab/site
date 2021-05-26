@@ -1,19 +1,37 @@
 <template>
-  <div class="header">111</div>
+  <div class="header">
+    <ul class="categories">
+      <li
+        v-for="category in categories"
+        :key="category.name"
+        :class="selectedCategory === category.name ? 'active' : ''"
+        @click="updateSelectedCategory(category.name)"
+      >
+        {{ category.name }} {{ category.total }}
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'Header',
   props: {
+    updateSelectedCategory: {
+      type: Function,
+      default: () => {},
+    },
+    selectedCategory: {
+      type: String,
+    },
     categories: {
       type: Array,
+      default: [],
     },
   },
-  data() {},
 };
 </script>
 
 <style lang="scss" scoped>
-@import './index';
+@import './Header';
 </style>
