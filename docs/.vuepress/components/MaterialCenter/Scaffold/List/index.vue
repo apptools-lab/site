@@ -5,16 +5,19 @@
       :selectedCategory="selectedCategory"
       :updateSelectedCategory="updateSelectedCategory"
     />
+    <Body :selectedCategory="selectedCategory" :scaffolds="scaffolds" />
   </div>
 </template>
 
 <script>
 import Header from './Header';
+import Body from './Body';
 
 export default {
   name: 'List',
   components: {
     Header,
+    Body,
   },
   mounted() {
     this.getData();
