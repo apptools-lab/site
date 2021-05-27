@@ -20,7 +20,7 @@ order: 1
 1. 点击 VS Code 左侧活动栏中的『插件管理图标』
 2. 在插件管理顶部的搜索框输入『AppWorks』
 3. 点击侧边栏中出现的『AppWorks 插件』搜索结果
-4. 在右侧出现的主页面中点击『安装』按钮
+4. 在右侧出现的主页面中点击『 安装』按钮
 
 ![安装 Pack](https://img.alicdn.com/imgextra/i2/O1CN01lnYl9k20n2lQuBo16_!!6000000006893-2-tps-2880-1754.png_790x10000.jpg)
 
