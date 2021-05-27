@@ -64,6 +64,6 @@ AppWorks 的前身是 [Iceworks](https://zhuanlan.zhihu.com/p/34265596)。Icewor
 
 在发展的过程中，Iceworks 产品形态不断演进，[从 GUI 开发工具到集成研发工作台](https://zhuanlan.zhihu.com/p/94102675)。
 
-随着开发者工具链和业务研发模式的变化，Iceworks 作为开发工具也一直紧跟时代的潮流，贴近淘系实际的业务场景在持续演进。2020 年，前端开发进入云端一体化的新时期，Iceworks 将集成研发工作台的能力拆分封装为 IDE 插件，以[套件（Pack）](https://code.visualstudio.com/api/references/extension-manifest#extension-packs)的形态成为 IDE 的一部分，为开发者提供了很多更多易用好用的功能，广受开发者的喜爱。
+随着开发者工具链和业务研发模式的变化，Iceworks 作为开发工具也一直紧跟时代的潮流，贴近淘系实际的业务场景在持续演进。2020 年，前端开发进入云端一体化的新时期，Iceworks 将集成研发工作台的能力拆解封装为 IDE 插件，以[套件（Pack）](https://zhuanlan.zhihu.com/p/151628645)的形态成为 IDE 的一部分，为开发者提供了很多更多易用好用的功能，广受开发者的喜爱。
 
 2021 年，Iceworks 品牌升级为 AppWorks，定位为「多端研发工具集」，在中后台基础上更好地服务到无线体系。
