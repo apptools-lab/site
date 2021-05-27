@@ -1,6 +1,6 @@
 const getSidebar = require('./utils/getSidebar');
-const path = require('path')
-console.log(__dirname)
+const path = require('path');
+console.log(__dirname);
 module.exports = {
   title: 'Appworks',
   markdown: {
@@ -26,8 +26,8 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@assets': path.resolve(__dirname, '/docs/.vuepress/assets')
-      }
-    }
-  }
+        '@assets': path.resolve(__dirname, '/docs/.vuepress/assets'),
+      },
+    },
+  },
 };
