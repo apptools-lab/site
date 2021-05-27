@@ -1,6 +1,5 @@
 const getSidebar = require('./utils/getSidebar');
 const path = require('path');
-console.log(__dirname);
 module.exports = {
   title: 'AppWorks',
   markdown: {

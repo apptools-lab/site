@@ -1,6 +1,5 @@
 <template>
   <article class="footer-container">
-    <!-- <img :src="require('@assets/Home/footer/footer-link.png')" alt="" /> -->
     <div class="footer-block-wrapper">
       <LinkList :title="resource.title" :linkItems="resource.linkItems" />
       <LinkList :title="community.title" :linkItems="community.linkItems" />
