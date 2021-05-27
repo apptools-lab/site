@@ -1,107 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
-.card {
-  padding-left: 10px;
-  padding-right: 10px;
-
+.blockCard {
   flex: 0 0 25%;
   width: 25%;
   max-width: 25%;
 
   .content {
-    position: relative;
-    display: block;
-    transition: transform 0.3s ease;
-    box-shadow: 0 8px 24px rgba(163, 177, 191, 0.35);
-    background: #fafafa;
-    margin-bottom: 40px;
-    overflow: hidden;
-
-    .item {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      .screenshot {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-        transition: all 0.3s ease;
-        background-color: #fff;
-        img {
-          max-width: 100%;
-          max-height: 100%;
-        }
-      }
-    }
-
-    .item-info {
-      background: 0 0;
-      text-align: center;
-      padding: 20px 40px;
-      transition: transform 0.3s ease;
-      transform: translateY(0);
-      position: relative;
-      z-index: 9;
-
-      .item-title {
-        margin-top: 14px;
-        font-size: 14px;
-        font-weight: 700;
-        color: #333;
-      }
-
-      .item-desc {
-        color: #999;
-        margin-top: 10px;
-        font-size: 12px;
-        line-height: 22px;
-        height: 44px;
-        font-weight: 400;
-      }
-    }
-
-    .item-action {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      border-radius: 0 0 4px 4px;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      transition: transform 0.3s ease;
-      transform: translateY(100%);
-      z-index: 10;
-
-      .item-button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 50%;
-        height: 42px;
-        line-height: 42px;
-        font-size: 12px;
-        font-weight: 700;
-        background: #2077ff;
-        color: #fff;
-
-        &:hover {
-          color: rgba(255, 255, 255, 0.8);
-        }
-
-        img {
-          width: 20px;
-          margin-right: 6px;
-        }
-      }
-    }
-
     &:hover {
       transform: translateY(-12px);
     }
@@ -117,7 +19,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  .card {
+  .blockCard {
     flex: 0 0 50%;
     width: 50%;
     max-width: 50%;

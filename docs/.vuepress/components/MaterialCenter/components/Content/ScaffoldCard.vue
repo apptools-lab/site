@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card scaffoldCard">
     <div class="content">
       <div class="item">
         <div class="screenshots">
@@ -41,5 +41,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import './Card';
 @import './ScaffoldCard';
 </style>

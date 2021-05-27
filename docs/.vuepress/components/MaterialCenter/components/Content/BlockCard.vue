@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card blockCard">
     <div class="content">
       <div class="item">
         <div class="screenshot">
@@ -40,5 +40,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import './Card';
 @import './BlockCard';
 </style>

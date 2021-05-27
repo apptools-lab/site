@@ -6,7 +6,6 @@
       :updateSelectedCategory="updateSelectedCategory"
     />
     <List :selectedCategory="selectedCategory" :materialsType="materialsType" :data="data" />
-    {{ data.length }}
   </div>
 </template>
 
