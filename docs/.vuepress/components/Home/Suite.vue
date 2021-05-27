@@ -20,7 +20,6 @@ export default {
 
 <style lang="scss" scoped>
 .suite-container {
-  // margin-top: 93px;
   padding-top: 1332px;
   .suite-wrapper {
     padding: 93px;

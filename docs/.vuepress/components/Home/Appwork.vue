@@ -90,7 +90,6 @@ export default {
   .appwork-container {
     .nav-items {
       width: 100%;
-      // overflow: scroll;
       text-align: center;
       flex-direction: column;
       align-items: center;
