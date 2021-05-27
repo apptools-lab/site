@@ -46,8 +46,10 @@ order: 1
 
 ## 4. 构建报告
 
-（仅支持阿里内部工程）当您的项目执行构建部署时，将根据项目质量情况发送构建报告。
+**您的数据是私有的**：我们永远不会与任何人共享您的个人数据。Doctor 是开源的，你可以很容易地看到我们收集了什么数据。
 
-地址：[https://appworks.alibaba-inc.com/](https://appworks.alibaba-inc.com/)
+我们为阿里内部构建项目提供了数据分析服务。（仅支持阿里内部工程）当您的项目执行构建部署时，将根据项目质量情况发送构建报告。
+
+平台：[https://appworks.alibaba-inc.com/](https://appworks.alibaba-inc.com/)
 
 ![img](https://img.alicdn.com/imgextra/i3/O1CN01rB5kMk1QO0wq2z0nz_!!6000000001965-2-tps-854-934.png)
