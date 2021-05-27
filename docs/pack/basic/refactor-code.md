@@ -101,7 +101,7 @@ export default function PageA() {
 
 AppWorks 提供了自动升级的脚本和用户操作界面，自动化和人为监督干预的方式能够即让升级操作效率更高，也能保障升级的安全性。
 
-可以通过 `⇧⌘P` ( MacOS ) 或 `Ctrl+Shift+p` ( Windows ) 快捷键唤起命令面板，输入 `AppWorks: CodeMod` ，激活该功能。
+可以通过 `⇧⌘P` ( macOS ) 或 `Ctrl+Shift+p` ( Windows ) 快捷键唤起命令面板，输入 `AppWorks: CodeMod` ，激活该功能。
 
 1. 选择需要升级的脚本库
 2. 选择需要升级的具体 API
