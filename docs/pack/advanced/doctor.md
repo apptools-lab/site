@@ -19,11 +19,11 @@ order: 1
 
 1. 打开 VS Code Settings，在搜索框中输入 `Format On Save` ，勾选开启相关选项。
 
-![img](https://img.alicdn.com/imgextra/i3/O1CN011qrZBN1qXnPwgj2jD_!!6000000005506-2-tps-1324-556.png)
+![img](https://img.alicdn.com/imgextra/i3/O1CN011qrZBN1qXnPwgj2jD_!!6000000005506-2-tps-1324-556.png_790x10000.jpg)
 
 2.  打开 VS Code Settings，在搜索框中输入 `Default Formatter` ，选择 Prettier。
 
-![img](https://img.alicdn.com/imgextra/i1/O1CN01wEvswe1DgFiTppCUI_!!6000000000245-2-tps-1688-486.png)
+![img](https://img.alicdn.com/imgextra/i1/O1CN01wEvswe1DgFiTppCUI_!!6000000000245-2-tps-1688-486.png_790x10000.jpg)
 
 配置完成后，在保存文件时，VS Code 自动修复编码问题的效果：
 
@@ -50,4 +50,4 @@ order: 1
 
 > 该功能仅在阿里内部工程中可用
 
-![img](https://img.alicdn.com/imgextra/i3/O1CN01rB5kMk1QO0wq2z0nz_!!6000000001965-2-tps-854-934.png)
+![img](https://img.alicdn.com/imgextra/i3/O1CN01rB5kMk1QO0wq2z0nz_!!6000000001965-2-tps-854-934.png_790x10000.jpg)

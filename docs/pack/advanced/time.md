@@ -11,7 +11,7 @@ AppWorks 提供了仪表板，可直接在编辑器中显示您编码活动的�
 
 对于阿里内部用户，您还可以通过访问我们的网站来获取更多维以及更直观的可视化数据。例如您的编码热图，每天开始编码的时刻趋势图，工作与生活的平衡情况，项目投入比等等。
 
-![示例图](https://img.alicdn.com/imgextra/i4/O1CN01NgCFar21Xl9xjqB6o_!!6000000006995-2-tps-1440-877.png)
+![示例图](https://img.alicdn.com/imgextra/i4/O1CN01NgCFar21Xl9xjqB6o_!!6000000006995-2-tps-1440-877.png_790x10000.jpg)
 
 ## 以时间维度查看编码活动报告
 
@@ -20,7 +20,7 @@ AppWorks 追踪您在编辑器中的编码行为，最终以日、周的时间�
 - 点击编辑器侧边栏上的「时间图标」打开侧边面板
 - 点击侧边面板上的「查看编码活动报告」以时间维度查看编码活动报告
 
-![示例图](https://img.alicdn.com/imgextra/i4/O1CN01vHYa991eVFpRs1rIO_!!6000000003876-2-tps-1440-877.png)
+![示例图](https://img.alicdn.com/imgextra/i4/O1CN01vHYa991eVFpRs1rIO_!!6000000003876-2-tps-1440-877.png_790x10000.jpg)
 
 ## 以项目维度查看编码活动报告
 
@@ -29,13 +29,13 @@ AppWorks 将根据工作区中 Git /文件夹采集项目信息，最终以项�
 - 点击编辑器侧边栏上的「时间图标」打开侧边面板
 - 点击侧边面板上的「查看项目开发报告」以项目维度查看编码活动报告
 
-![示例图](https://img.alicdn.com/imgextra/i2/O1CN01AHKcL81D0Zfj2m1JD_!!6000000000154-2-tps-1440-877.png)
+![示例图](https://img.alicdn.com/imgextra/i2/O1CN01AHKcL81D0Zfj2m1JD_!!6000000000154-2-tps-1440-877.png_790x10000.jpg)
 
 ## 快速导出原始数据
 
 AppWorks 将原始数据存储在开发者的本地中，您可以快速通过以下路径找到这些原始数据，然后使用您自己的工具来分析或展示它们：
 
-![示例图](https://img.alicdn.com/imgextra/i3/O1CN010BtyOA1wdeAkQyOnd_!!6000000006331-2-tps-1441-876.png)
+![示例图](https://img.alicdn.com/imgextra/i3/O1CN010BtyOA1wdeAkQyOnd_!!6000000006331-2-tps-1441-876.png_790x10000.jpg)
 
 ## 安全和隐私
 
