@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="container">
     <ul class="categories">
       <li
         v-for="category in categories"
@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'Header',
+  name: 'Categories',
   props: {
     updateSelectedCategory: {
       type: Function,
@@ -33,5 +33,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import './Header';
+@import './Categories';
 </style>

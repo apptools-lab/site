@@ -29,7 +29,7 @@
 
 <script>
 export default {
-  name: 'Card',
+  name: 'BlockCard',
   props: {
     block: {
       type: Object,
@@ -40,5 +40,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import './Card';
+@import './BlockCard';
 </style>

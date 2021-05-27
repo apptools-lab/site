@@ -1,9 +1,7 @@
-.header {
+.container {
   margin: 0 0 20px;
-  padding: 20px 10px;
+  padding: 20px 10px 20px 0;
   overflow: hidden;
-  background-color: #fff;
-  box-shadow: 0 6px 18px 0 rgba(82, 94, 102, 0.15);
   border-radius: 4px;
 
   .categories {
@@ -26,6 +24,10 @@
       &:hover {
         color: #fff;
         background: #1b73ff;
+      }
+
+      &:first-child {
+        margin-left: -18px;
       }
 
       &:last-child {

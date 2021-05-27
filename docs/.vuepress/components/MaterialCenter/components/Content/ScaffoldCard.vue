@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: 'Card',
+  name: 'ScaffoldCard',
   props: {
     scaffold: {
       type: Object,
@@ -41,5 +41,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import './Card';
+@import './ScaffoldCard';
 </style>

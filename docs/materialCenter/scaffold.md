@@ -1,1 +1,0 @@
-<MaterialCenter-Scaffold-Index />
