@@ -1,0 +1,1 @@
+<MaterialCenter-Index :type="'Rax'"/>

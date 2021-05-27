@@ -1,0 +1,38 @@
+.container {
+  margin: 0 0 20px;
+  padding: 20px 10px 20px 0;
+  overflow: hidden;
+  border-radius: 4px;
+
+  .categories {
+    margin-top: 0;
+    list-style: none;
+    li {
+      float: left;
+      margin: 10px;
+      padding: 0 18px;
+      border-radius: 24px;
+      color: #666;
+      background: #fff;
+      font-size: 13px;
+      height: 24px;
+      line-height: 24px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &.active,
+      &:hover {
+        color: #fff;
+        background: #1b73ff;
+      }
+
+      &:first-child {
+        margin-left: -18px;
+      }
+
+      &:last-child {
+        margin-right: 10px;
+      }
+    }
+  }
+}

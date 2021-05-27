@@ -1,0 +1,43 @@
+.tabsNav {
+  position: relative;
+  height: 72px;
+  border-bottom: 1px solid #dcdfe6;
+}
+
+.tabs {
+  list-style: none;
+  text-align: center;
+
+  .tab {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 18px;
+    color: #585d66;
+    padding: 21px 16px;
+    cursor: pointer;
+
+    &:hover {
+      color: #222;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      border-bottom: 1px solid #222;
+      left: 50%;
+      bottom: 0;
+      width: 0;
+      transition: all 0.3s ease;
+    }
+  }
+
+  .active {
+    color: #222;
+
+    &:before {
+      left: 0;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.scaffoldCard {
+  flex: 0 0 50%;
+  width: 50%;
+  max-width: 50%;
+
+  .content {
+    .screenshot {
+      img {
+        max-width: 100%;
+        height: 318px;
+      }
+    }
+
+    &:hover {
+      transform: translateY(-6px);
+    }
+
+    &:hover .item-action {
+      transform: translateY(0);
+    }
+
+    &:hover .item-info {
+      transform: translateY(-20px);
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+}
