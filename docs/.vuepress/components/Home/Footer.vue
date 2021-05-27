@@ -65,6 +65,7 @@ export default {
   position: absolute;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 81px 30px 20px 30px;
   left: 0;

@@ -2,7 +2,7 @@ const getSidebar = require('./utils/getSidebar');
 const path = require('path');
 console.log(__dirname);
 module.exports = {
-  title: 'Appworks',
+  title: 'AppWorks',
   markdown: {
     lineNumbers: true,
     extendMarkdown: (md) => {
@@ -10,6 +10,7 @@ module.exports = {
     },
   },
   themeConfig: {
+    logo: '/logo.png',
     nav: [
       { text: '文档', link: '/pack/about' },
       {

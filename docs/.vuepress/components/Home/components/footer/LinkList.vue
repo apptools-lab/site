@@ -28,7 +28,6 @@ export default {
 <style lang="scss" scoped>
 .linklist-container {
   padding-right: 90px;
-
   .title {
     color: #fff;
   }
@@ -36,6 +35,11 @@ export default {
     font-size: 16px;
   }
   .linklist-items {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .linklist-container {
     padding: 0;
   }
 }

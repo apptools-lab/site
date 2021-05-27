@@ -9,7 +9,7 @@
           :key="index"
           @click="handleChangeActive(index)"
         >
-          {{ activeIndex === index ? item.adjective : '' }}{{ item.text }}
+          {{ item.adjective }}{{ activeIndex === index ? item.text : '' }}
         </li>
       </ul>
     </nav>
@@ -174,6 +174,14 @@ export default {
       }
       .nav-item:not(:last-of-type) {
         margin-right: 60px;
+      }
+    }
+    .carousel-wrapper {
+      min-height: 300px;
+      .carousel-button {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
       }
     }
   }

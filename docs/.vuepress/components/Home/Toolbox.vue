@@ -36,7 +36,7 @@ export default {
 
 <style lang="scss" scoped>
 .toolbox-container {
-  margin-bottom: 141px;
+  margin: 222px auto 141px auto;
   overflow-x: auto;
   display: flex;
   .toolbox-text {
@@ -76,6 +76,9 @@ export default {
     .toolbox-text {
       text-align: center;
       margin: 0;
+      .descibe {
+        width: auto;
+      }
       .toolbox-nav {
         margin-top: 50px;
         text-align: center;

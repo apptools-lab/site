@@ -2,7 +2,7 @@
   <article class="appwork-container">
     <img src="/logo.png" alt="logo" class="logo" />
     <div class="describe">
-      <p class="describe-title">appworks</p>
+      <p class="describe-title">AppWorks</p>
       <p class="describe-detail">The general browser standard helps you develop hybrid applications efficiently.</p>
     </div>
     <nav class="nav-items">
@@ -15,7 +15,7 @@
         class="nav-item"
       ></nav-item>
     </nav>
-    <img :src="require('@assets/Home/appworks/AW-logo.png')" alt="aw-logo" class="aw-logo" />
+    <a id="toolkit"></a>
     <toolbox />
   </article>
 </template>
@@ -32,9 +32,9 @@ export default {
   data() {
     return {
       navItems: [
-        { text: 'Toolbox', targetUrl: '', imgUrl: require('@assets/Home/appworks/label-logo.png') },
-        { text: 'R & D Suite', targetUrl: '' },
-        { text: 'Rich materials', targetUrl: '' },
+        { text: 'Toolkit', targetUrl: '#toolkit', imgUrl: require('@assets/Home/appworks/label-logo.png') },
+        { text: 'R & D Suite', targetUrl: '#suite' },
+        { text: 'Rich materials', targetUrl: '#materials' },
       ],
     };
   },
@@ -65,7 +65,6 @@ export default {
       font-size: 36px;
       font-weight: bolder;
       color: #000000;
-      text-transform: uppercase;
     }
     &-detail {
       margin: 0;
@@ -91,10 +90,13 @@ export default {
   .appwork-container {
     .nav-items {
       width: 100%;
-      overflow: scroll;
+      // overflow: scroll;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
       justify-content: flex-start;
       .nav-item:not(:last-child) {
-        margin-right: 100px;
+        margin-bottom: 20px;
       }
     }
   }

@@ -1,7 +1,10 @@
 <template>
   <article class="suite-container">
-    <h3 class="title">R &amp; D Suite</h3>
-    <carousel />
+    <a name="suite" id="suite"></a>
+    <div class="suite-wrapper">
+      <h3 class="title">R &amp; D Suite</h3>
+      <carousel />
+    </div>
   </article>
 </template>
 
@@ -17,13 +20,17 @@ export default {
 
 <style lang="scss" scoped>
 .suite-container {
-  padding-top: 1425px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  .title {
-    font-size: 32px;
-    font-weight: bold;
+  // margin-top: 93px;
+  padding-top: 1332px;
+  .suite-wrapper {
+    padding: 93px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+    }
   }
 }
 </style>

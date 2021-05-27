@@ -1,5 +1,6 @@
 <template>
   <article class="material-container">
+    <a name="materials" id="materials"></a>
     <div class="rich-material">
       <img :src="require('@assets/Home/material/material-img.png')" alt="" class="material-img" />
       <div class="material-describe">
@@ -41,9 +42,10 @@ export default {
   background-color: #f9f9f9;
   display: flex;
   justify-content: center;
-  padding: 129px 50px 170px 50px;
   margin: 0 auto;
+  padding: 0px 50px 170px 50px;
   .rich-material {
+    padding-top: 129px;
     max-width: 1070px;
     display: flex;
     justify-content: space-between;
