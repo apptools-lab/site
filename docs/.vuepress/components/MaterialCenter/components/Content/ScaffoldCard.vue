@@ -2,8 +2,8 @@
   <div class="card scaffoldCard">
     <div class="content">
       <div class="item">
-        <div class="screenshots">
-          <img :src="scaffold.screenshot" class="snapshot" />
+        <div class="screenshot">
+          <img :src="scaffold.screenshot" />
         </div>
       </div>
       <div class="item-info">

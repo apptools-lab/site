@@ -4,6 +4,13 @@
   max-width: 50%;
 
   .content {
+    .screenshot {
+      img {
+        max-width: 100%;
+        height: 318px;
+      }
+    }
+
     &:hover {
       transform: translateY(-6px);
     }
