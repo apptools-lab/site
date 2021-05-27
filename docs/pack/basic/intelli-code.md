@@ -15,21 +15,23 @@ AppWorks 增强了前端开发者经常使用的 JS 及样式相关文件的代�
 
 若您的项目基于 React 开发。当您的项目中包含 typings 文件或使用由 TypeScript 开发的组件，可享受同 `.ts` 和 `.tsx` 一样的代码补全体验。
 
-比如依赖 `@types/react` 可获得 HTML JSX 的代码补全。使用由 TypeScript 开发的诸如 [Fusion Design](https://fusion.design/) 和 [Ant Design](https://ant.design/) 组件时，可获得对应组件的代码补全。详见 [VS Code React 开发](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)。
+比如依赖 `@types/react` 可获得 HTML JSX 的代码补全。使用由 TypeScript 开发的诸如 [Fusion Design](https://fusion.design/) 和 [Ant Design](https://ant.design/) 组件时，可获得对应组件的代码补全。详见[《在 VS Code 中使用 React》](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)。
 
 在此基础上 AppWorks 提供了：
 
 - [Rax](https://rax.js.org/) 业务组件和基础组件 Props 的代码补全
 - React 业务组件 Props 的代码补全
-- MTOP API 自动补全
+- MTOP API 的代码补全
 
-### 1. Rax 工程
+> MTOP（Mobile Taobao Open Platform）是阿里内部为客户端和服务端提供的一致的 API 平台
 
-使用 JS 开发的业务组件及 [Rax Components](https://github.com/raxjs/rax-components) 代码补全：
+### Rax 工程
+
+使用 JS 开发的业务组件及 [Rax Components](https://github.com/raxjs/rax-components) 的代码补全：
 
 ![img](https://img.alicdn.com/imgextra/i2/O1CN01D6Zb3r1b7wpFzjWyk_!!6000000003419-1-tps-900-513.gif)
 
-### 2. React 工程
+### React 工程
 
 使用 JS 开发的业务组件的代码补全：
 
