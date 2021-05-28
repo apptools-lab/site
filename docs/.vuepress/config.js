@@ -38,7 +38,6 @@ module.exports = {
     resolve: {
       alias: {
         '@assets': path.resolve(__dirname, '/docs/.vuepress/assets'),
-        '@home': path.resolve(__dirname, '/docs/.vuepress/components/Home')
       },
     },
   },

@@ -1,6 +1,6 @@
 <template>
   <li class="useritem-container">
-    <img :src="user.img" alt="" />
+    <img :src="user.img" alt="user-img" />
     <span>{{ user.text }}</span>
   </li>
 </template>
