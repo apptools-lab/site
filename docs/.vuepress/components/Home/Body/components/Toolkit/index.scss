@@ -1,55 +1,60 @@
-.toolbox-container {
-  margin: 222px auto 0px auto;
-  padding-bottom: 30px;
-  overflow-x: auto;
+.toolkit-container {
   display: flex;
   justify-content: center;
-  .toolbox-text {
-    margin-right: 60px;
-    .title {
-      color: #000;
-      font-size: 32px;
-      font-weight: bold;
-      margin: 17px 0;
+  .toolkit-wrapper {
+    padding: 222px 0 30px 0;
+    overflow-x: auto;
+    display: flex;
+    justify-content: flex-start;
+    .toolkit-text {
+      margin-right: 60px;
+      .title {
+        color: #000;
+        font-size: 32px;
+        font-weight: bold;
+        margin: 17px 0;
+      }
+      .descibe {
+        color: #36415f;
+        font-size: 16px;
+        line-height: 30px;
+        width: 401px;
+        height: 90px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .toolkit-nav {
+        margin-top: 91px;
+      }
     }
-    .descibe {
-      color: #36415f;
-      font-size: 16px;
-      line-height: 30px;
-      width: 401px;
-      height: 90px;
-      overflow: hidden;
-      text-overflow: ellipsis;
+    .toolkit-img {
+      width: 745px;
+      height: 447px;
+      box-shadow: 0px 10px 30px rgba(155,155,155,.3);
+      border-radius: 4%;
     }
-    .toolbox-nav {
-      margin-top: 91px;
-    }
-  }
-  .toolbox-img {
-    width: 745px;
-    height: 447px;
-    box-shadow: 0px 10px 30px rgba(155,155,155,.3);
-    border-radius: 4%;
   }
 }
 @media screen and (max-width: 750px) {
-  .toolbox-container {
+  .toolkit-container {
+    .toolkit-wrapper {
     justify-content: center;
     align-items: center;
     max-width: 848px;
-    margin: 172px auto 91px auto;
-    .toolbox-img {
+
+    .toolkit-img {
       display: none;
     }
-    .toolbox-text {
+    .toolkit-text {
       text-align: center;
       margin: 0;
       .descibe {
         width: auto;
       }
-      .toolbox-nav {
+      .toolkit-nav {
         margin-top: 50px;
         text-align: center;
+        }
       }
     }
   }
