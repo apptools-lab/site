@@ -13,6 +13,17 @@ module.exports = {
     nav: [
       { text: '文档', link: '/pack/about' },
       {
+        text: '物料',
+        ariaLabel: 'Menu',
+        items: [
+          { text: '自定义物料', link: '/materials/about' },
+          { text: 'Fusion 物料', link: '/materialCenter/fusion' },
+          { text: 'Ant Design 物料', link: '/materialCenter/antd' },
+          { text: 'Rax 物料', link: '/materialCenter/rax' },
+          { text: 'Vue 物料', link: '/materialCenter/vue' },
+        ],
+      },
+      {
         text: '其它',
         ariaLabel: 'Menu',
         items: [
