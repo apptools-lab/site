@@ -1,0 +1,99 @@
+.carousel-container {
+  height: 853px;
+  width: 70%;
+  .nav-items {
+    line-height: 40px;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.32);
+    margin-bottom: 41px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    .nav-item {
+      color: #b7b7b7;
+      font-size: 18px;
+      display: inline-block;
+      list-style: none;
+      padding: 0 15px;
+      cursor: pointer;
+    }
+    .nav-item-active {
+      color: #252020;
+      font-size: 16px;
+      border-bottom: 2px solid #152dff;
+    }
+  }
+  .carousel-message {
+    font: 16px/30px PingFangSC-Light;
+    margin: 41px auto 83px auto;
+    max-width: 539px;
+    text-align: center;
+  }
+  .carousel-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1170px;
+    min-height: 562px;
+    position: relative;
+    .carousel-button {
+      outline: none;
+      width: 44px;
+      height: 44px;
+      background-color: #d8d8d8;
+      color: #fff;
+      border: none;
+      font-size: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .carousel-button:hover {
+      color: rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    }
+    .carousel-img {
+      width: 80%;
+      border-radius: 1%;
+      box-shadow: -5px 10px 50px gray;
+    }
+    .left{
+      margin-right: 10px;
+    }
+    .right {
+      margin-left: 10px;
+    }
+  }
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter,
+  .fade-leave-to {
+    opacity: 0.2;
+  }
+}
+@media screen and (max-width: 750px) {
+  .carousel-container {
+    height: auto;
+    .nav-items {
+      justify-content: flex-start;
+      overflow-x: auto;
+      .nav-item {
+        min-width: 120px;
+      }
+      .nav-item:not(:last-of-type) {
+        margin-right: 60px;
+      }
+    }
+    .carousel-wrapper {
+      min-height: 200px;
+      display: none;
+      .carousel-button {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+      }
+    }
+  }
+}

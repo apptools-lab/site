@@ -7,12 +7,12 @@
       <LinkList :title="more.title" :linkItems="more.linkItems" />
     </div>
     <div class="footer-gap"></div>
-    <div class="footer-copyright">Copyright © 2016-present Alibaba Inc.</div>
+    <div class="footer-copyright">Copyright © 2018-present Alibaba Inc.</div>
   </article>
 </template>
 
 <script>
-import LinkList from './components/footer/LinkList';
+import LinkList from './components/LinkList';
 export default {
   name: 'Footer',
   components: {
@@ -61,14 +61,11 @@ export default {
 <style lang="scss" scoped>
 .footer-container {
   background-color: #141313;
-  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 81px 30px 20px 30px;
-  left: 0;
-  right: 0;
   font: 14px PingFangSC-Regular;
   .footer-block-wrapper {
     margin-bottom: 20px;

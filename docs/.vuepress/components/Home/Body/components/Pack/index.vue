@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import Carousel from './components/suite/Carousel';
+import Carousel from './components/Carousel';
 export default {
-  name: 'Suite',
+  name: 'Pack',
   components: {
     Carousel,
   },
@@ -20,13 +20,14 @@ export default {
 
 <style lang="scss" scoped>
 .suite-container {
-  padding-top: 1332px;
   .suite-wrapper {
     padding: 93px;
     display: flex;
     flex-direction: column;
     align-items: center;
     .title {
+      margin: 0;
+      margin-bottom: 65px;
       text-align: center;
       font-size: 32px;
       font-weight: bold;
@@ -34,8 +35,5 @@ export default {
   }
 }
 @media screen and (max-width: 750px) {
-  .suite-container {
-    padding-top: 1405px;
-  }
 }
 </style>

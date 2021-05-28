@@ -1,0 +1,62 @@
+<template>
+  <article class="usergroup-container">
+    <h4 class="title">Who is using?</h4>
+    <div class="user-items">
+      <user-item class="user-item" v-for="user in users" :key="user.text" :user="user" />
+    </div>
+  </article>
+</template>
+
+<script>
+import UserItem from './components/UserItem';
+export default {
+  name: 'UserGroup',
+  components: {
+    UserItem,
+  },
+  data() {
+    return {
+      users: [
+        { img: require('@assets/Home/Body/UserGroup/taobao.png'), text: '淘宝' },
+        { img: require('@assets/Home/Body/UserGroup/tmall.png'), text: '天猫' },
+        { img: require('@assets/Home/Body/UserGroup/alipay.png'), text: '支付宝' },
+        { img: require('@assets/Home/Body/UserGroup/qianniu.png'), text: '牵牛' },
+        { img: require('@assets/Home/Body/UserGroup/taobaotoutiao.png'), text: '头条' },
+        { img: require('@assets/Home/Body/UserGroup/1688.png'), text: '1688' },
+        { img: require('@assets/Home/Body/UserGroup/xianyu.png'), text: '咸鱼' },
+        { img: require('@assets/Home/Body/UserGroup/mendian.png'), text: '门店' },
+        { img: require('@assets/Home/Body/UserGroup/alibaba.png'), text: '阿里' },
+        { img: require('@assets/Home/Body/UserGroup/dingtalk.png'), text: '叮叮' },
+        { img: require('@assets/Home/Body/UserGroup/Laz.png'), text: 'Laz' },
+        { img: require('@assets/Home/Body/UserGroup/youku.png'), text: '优酷' },
+        { img: require('@assets/Home/Body/UserGroup/UC.png'), text: 'UC' },
+        { img: require('@assets/Home/Body/UserGroup/ele.png'), text: '饿了吗' },
+        { img: require('@assets/Home/Body/UserGroup/alibabacloud.png'), text: '阿里云' },
+      ],
+    };
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+.usergroup-container {
+  padding: 193px 50px 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    font: bold 32px/45px SFProText-Bold;
+    margin: 0;
+    margin-bottom: 78px;
+  }
+  .user-items {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .user-item {
+      margin: 0 48px 61px 0;
+    }
+  }
+}
+</style>

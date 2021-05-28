@@ -1,0 +1,52 @@
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .logo {
+    width: 286px;
+    height: 102px;
+  }
+  .describe {
+    margin-top: 49px;
+    text-align: center;
+    &-title {
+      margin: 0;
+      margin-bottom: 21px;
+      font-size: 36px;
+      font-weight: bolder;
+      color: #000000;
+    }
+    &-detail {
+      margin: 0;
+      font-size: 20px;
+      color: #666666;
+    }
+  }
+  .nav-items {
+    margin-top: 111px;
+    width: 679px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.32);
+    padding-bottom: 19px;
+  }
+  .aw-logo {
+    width: 88px;
+    height: 37px;
+    margin: 113px 0 72px 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .nav-container {
+    .nav-items {
+      width: 100%;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      .nav-item:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

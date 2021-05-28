@@ -2,10 +2,7 @@
 home: true
 heroText: null
 tagline: null
+pageClass: home-page
 ---
 
-<Home-Appwork />
-<Home-Suite />
-<Home-Material />
-<Home-UserGroup />
-<Home-Footer />
+<Home-Index />

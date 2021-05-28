@@ -29,6 +29,7 @@ export default {
     .nav-item {
       list-style: none;
       margin-bottom: 23px;
+      height: 30px;
       .nav-icon {
         padding-right: 33px;
         width: 25px;
@@ -37,7 +38,6 @@ export default {
       }
       .nav-link {
         vertical-align: top;
-        line-height: 30px;
         color: #5d5d5d;
         font-size: 14px;
       }

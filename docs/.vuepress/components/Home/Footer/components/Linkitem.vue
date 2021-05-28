@@ -20,13 +20,20 @@ export default {
 .link-item-container {
   margin-bottom: 15px;
   min-width: 150px;
+  display: flex;
+  align-items: center;
   img {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 15px;
   }
   a {
     color: #fff;
-    vertical-align: top;
+    vertical-align: bottom;
+  }
+}
+@media screen and (max-width: 750px) {
+  .link-item-container {
+    justify-content: center;
   }
 }
 </style>
