@@ -3,7 +3,10 @@
     <img src="/logo.png" alt="logo" class="logo" />
     <div class="describe">
       <p class="describe-title">AppWorks</p>
-      <p class="describe-detail">The general browser standard helps you develop hybrid applications efficiently.</p>
+      <p class="describe-detail">
+        AppWorks
+        是一个多端研发工具集，通过提供桌面客户端、编辑器插件、命令行工具的方式让多端应用程序的开发更快更好更轻松。
+      </p>
     </div>
     <nav class="nav-items">
       <nav-item
@@ -33,8 +36,8 @@ export default {
     return {
       navItems: [
         { text: 'Toolkit', targetUrl: '#toolkit', imgUrl: require('@assets/Home/appworks/label-logo.png') },
-        { text: 'R & D Suite', targetUrl: '#suite' },
-        { text: 'Rich materials', targetUrl: '#materials' },
+        { text: '多端研发套件', targetUrl: '#suite' },
+        { text: '海量物料', targetUrl: '#materials' },
       ],
     };
   },
@@ -43,7 +46,7 @@ export default {
 
 <style lang="scss" scoped>
 .appwork-container {
-  background-image: url(/appwork-background.png);
+  background-image: url(~@assets/Home/appworks/appwork-background.png);
   background-size: contain;
   position: absolute;
   left: 0;

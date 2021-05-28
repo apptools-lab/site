@@ -22,8 +22,8 @@
       <button class="carousel-button left" @click="handleDesc">&lt;</button>
       <transition name="fade" mode="out-in">
         <img
-          :src="require('@assets/Home/suite/0002.png')"
-          alt=""
+          :src="carouselItems[activeIndex].img"
+          alt="img"
           class="carousel-img"
           :key="carouselItems[activeIndex].message"
         />
@@ -44,35 +44,35 @@ export default {
           text: '开发流程',
           message:
             'The container level tabbar framework scheme of the general hybrid business scenario, the ultimate native interaction experience,123',
-          imgUri: '',
+          img: '',
         },
         {
           adjective: '友好的',
           text: '开发体验',
           message:
             'The container level tabbar framework scheme of the general hybrid business scenario, the ultimate native interaction experience,456',
-          imgUri: '',
+          img: '',
         },
         {
           adjective: '强大的',
           text: '编码辅助',
           message:
-            'The container level tabbar framework scheme of the general hybrid business scenario, the ultimate native interaction experience,768',
-          imgUri: '',
+            '代码补全，定义预览与跳转，代码片段，代码重构的多重助力，让前端工程开发更轻松。不但支持 JavaScript 文件，对样式文件同样有效',
+          img: require('@assets/Home/suite/code-auxiliary.gif'),
         },
         {
           adjective: '详尽的',
           text: '代码分析',
           message:
-            'The container level tabbar framework scheme of the general hybrid business scenario, the ultimate native interaction experience,1234',
-          imgUri: '',
+            '非常快速的获取多维度检测报告，支持一键快速修复问题。帮助团队实现代码规范统一，提升和改善代码质量。并为阿里内部工程提供数据分析服务',
+          img: require('@assets/Home/suite/code-quality.gif'),
         },
         {
           adjective: '完善的',
           text: '编程指标',
           message:
             'The container level tabbar framework scheme of the general hybrid business scenario, the ultimate native interaction experience,9876',
-          imgUri: '',
+          img: '',
         },
       ],
       activeIndex: 0,
@@ -95,7 +95,7 @@ export default {
 <style lang="scss" scoped>
 .carousel-container {
   width: 100%;
-  height: 900px;
+  height: 700px;
   .nav-items {
     line-height: 40px;
     border-bottom: 1px solid rgba(151, 151, 151, 0.32);
@@ -119,7 +119,7 @@ export default {
   }
   .carousel-message {
     font: 16px/30px PingFangSC-Light;
-    margin: 41px auto 83px auto;
+    margin: 41px auto 20px auto;
     max-width: 539px;
     text-align: center;
   }
@@ -147,10 +147,14 @@ export default {
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     }
     .left {
-      left: 0;
+      left: -100px;
     }
     .right {
-      right: 0;
+      right: -100px;
+    }
+    .carousel-img {
+      border-radius: 1%;
+      box-shadow: -5px 10px 50px gray;
     }
   }
   .fade-enter-active,
@@ -159,7 +163,7 @@ export default {
   }
   .fade-enter,
   .fade-leave-to {
-    opacity: 0.1;
+    opacity: 0.2;
   }
 }
 @media screen and (max-width: 750px) {
@@ -177,11 +181,17 @@ export default {
       }
     }
     .carousel-wrapper {
-      min-height: 300px;
+      min-height: 200px;
       .carousel-button {
         width: 30px;
         height: 30px;
         font-size: 16px;
+      }
+      .left {
+        left: -50px;
+      }
+      .right {
+        right: -50px;
       }
     }
   }

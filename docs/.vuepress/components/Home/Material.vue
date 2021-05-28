@@ -57,7 +57,7 @@ export default {
     }
     .material-describe {
       max-width: 401px;
-      min-width: 289px;
+      min-width: 275px;
       .title {
         font: bold 32px SFProText-Bold;
         margin: 17px 0;

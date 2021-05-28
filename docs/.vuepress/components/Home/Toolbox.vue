@@ -70,6 +70,7 @@ export default {
     justify-content: center;
     align-items: center;
     max-width: 848px;
+    margin: 172px auto 91px auto;
     .toolbox-img {
       display: none;
     }
