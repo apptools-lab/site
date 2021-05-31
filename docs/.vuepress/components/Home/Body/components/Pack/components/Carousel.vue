@@ -43,13 +43,13 @@ export default {
           adjective: '极简',
           text: '的开发流程',
           message: '我们将创建、调试和发布项目的操作通过插件的方式集成到了常用的编辑器中，让项目的开发流程更简单。',
-          img: 'https://img.alicdn.com/imgextra/i1/O1CN01TuzARY29nLZCIFdMp_!!6000000008112-1-tps-900-562.gif',
+          img: require('@assets/Home/Body/Pack/code-debug.gif'),
         },
         {
           adjective: '友好',
           text: '的开发体验',
           message: '我们提供了基于物料的可视化开发方式，区块组装生成页面，一键添加物料到代码，这对于新人来说非常友好。',
-          img: 'https://img.alicdn.com/imgextra/i1/O1CN01TNlWfL1MLwhJgSP4e_!!6000000001419-1-tps-900-562.gif',
+          img: require('@assets/Home/Body/Pack/code-fusion.gif'),
         },
         {
           adjective: '强大',
@@ -70,7 +70,7 @@ export default {
           text: '的编程指标',
           message:
             '我们自动追踪您在编辑器中的编码行为，通过对收集到的数据进行量化，以帮助您从数据中学习，更高效地编写代码，提高生产力。',
-          img: 'https://img.alicdn.com/imgextra/i1/O1CN015Y0rNi1Dps2FwYj2F_!!6000000000266-1-tps-900-562.gif',
+          img: require('@assets/Home/Body/Pack/code-action.gif'),
         },
       ],
       activeIndex: 0,
