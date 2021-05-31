@@ -11,7 +11,7 @@ order: 1
 
 [AppWorks Toolkit](/pack/basic/toolkit) 是一款桌面客户端，以帮助开发者简单快速地安装前端必备工具。我们可以使用 Toolkit 来一键安装 AppWorks 提供的所有工具。
 
-![前端开发工具箱](https://img.alicdn.com/imgextra/i4/O1CN01XukxeH1W58JmRAecD_!!6000000002736-2-tps-1800-1078.png_790x10000.jpg)
+![前端开发工具箱](https://img.alicdn.com/imgextra/i4/O1CN01RSVZe71mFEuZalBij_!!6000000004924-2-tps-1800-1080.png_790x10000.jpg)
 
 ### 安装 Pack
 
@@ -22,7 +22,7 @@ order: 1
 3. 点击侧边栏中出现的『AppWorks 插件』搜索结果
 4. 在右侧出现的主页面中点击『 安装』按钮
 
-![安装 Pack](https://img.alicdn.com/imgextra/i2/O1CN01lnYl9k20n2lQuBo16_!!6000000006893-2-tps-2880-1754.png_790x10000.jpg)
+![安装 Pack](https://img.alicdn.com/imgextra/i3/O1CN01Bd8dKm1GsZDQjYv4t_!!6000000000678-2-tps-2880-1650.png_790x10000.jpg)
 
 ## 创建项目
 
