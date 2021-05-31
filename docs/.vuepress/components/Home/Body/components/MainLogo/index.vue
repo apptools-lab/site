@@ -1,11 +1,11 @@
 <template>
-  <div class="logo-container">
+  <article class="logo-container">
     <img src="/logo.png" alt="logo" class="logo" />
     <div class="describe">
       <p class="describe-title">AppWorks</p>
       <p class="describe-detail">多端研发套件，让多端开发更快更好更轻松。</p>
     </div>
-  </div>
+  </article>
 </template>
 
 <script>
