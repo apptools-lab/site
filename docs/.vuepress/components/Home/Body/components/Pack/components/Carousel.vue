@@ -18,14 +18,12 @@
         {{ carouselItems[activeIndex].message }}
       </p>
     </transition>
-    <transition name="fade" mode="out-in">
-      <quick-start
-        class="quick-start"
-        text="安装 VS Code 插件"
-        link="vscode:extension/iceworks-team.iceworks"
-        :key="carouselItems[activeIndex].link"
-      />
-    </transition>
+    <quick-start
+      class="quick-start"
+      text="安装 VS Code 插件"
+      link="vscode:extension/iceworks-team.iceworks"
+      :key="carouselItems[activeIndex].link"
+    />
     <div class="carousel-wrapper">
       <button class="carousel-button left" @click="handleDesc">&lt;</button>
       <transition name="fade" mode="out-in">
