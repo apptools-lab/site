@@ -1,6 +1,8 @@
 <template>
   <div class="body-container">
-    <Container />
+    <MainLogo />
+    <Nav />
+    <Toolkit />
     <Pack />
     <Material />
     <UserGroup />
@@ -8,7 +10,9 @@
 </template>
 
 <script>
-import Container from './components/Container';
+import Nav from './components/Nav';
+import Toolkit from './components/Toolkit';
+import MainLogo from './components/MainLogo';
 import Pack from './components/Pack';
 import Material from './components/Material';
 import UserGroup from './components/UserGroup';
@@ -16,10 +20,22 @@ import UserGroup from './components/UserGroup';
 export default {
   name: 'Body',
   components: {
-    Container,
+    MainLogo,
+    Nav,
+    Toolkit,
     Pack,
     Material,
     UserGroup,
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.body-container {
+  background-image: url(~@assets/Home/Body/background.png);
+  background-position: 0 -75px, center;
+  background-repeat: no-repeat;
+  background-size: 100% 1425px;
+  padding: 113px 0px 111px;
+}
+</style>
