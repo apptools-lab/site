@@ -23,7 +23,7 @@ export default {
         { img: require('@assets/Home/Body/UserGroup/qianniu.png'), text: '千牛' },
         { img: require('@assets/Home/Body/UserGroup/taobaotoutiao.png'), text: '淘宝头条' },
         { img: require('@assets/Home/Body/UserGroup/1688.png'), text: '1688' },
-        { img: require('@assets/Home/Body/UserGroup/xianyu.png'), text: '咸鱼' },
+        { img: require('@assets/Home/Body/UserGroup/xianyu.png'), text: '闲鱼' },
         { img: require('@assets/Home/Body/UserGroup/mendian.png'), text: '门店' },
         { img: require('@assets/Home/Body/UserGroup/alibaba.png'), text: '阿里巴巴' },
         { img: require('@assets/Home/Body/UserGroup/dingtalk.png'), text: '钉钉' },
