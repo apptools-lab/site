@@ -1,11 +1,8 @@
 ---
 home: true
-heroImage: /logo.png
-heroText: Iceworks
-tagline: 可视化智能开发助手
-actionText: 快速开始
-actionLink: /pack/quick-start
+heroText: null
+tagline: null
+pageClass: home-page
 ---
 
-<Test />
-<Foo-Bar />
+<Home-Index />

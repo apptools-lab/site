@@ -1,7 +1,7 @@
 const getSidebar = require('./utils/getSidebar');
-
+const path = require('path');
 module.exports = {
-  title: 'Iceworks',
+  title: 'AppWorks',
   markdown: {
     lineNumbers: true,
     extendMarkdown: (md) => {
@@ -9,6 +9,7 @@ module.exports = {
     },
   },
   themeConfig: {
+    logo: '/logo.png',
     nav: [
       { text: '文档', link: '/pack/about' },
       {
@@ -32,5 +33,12 @@ module.exports = {
       },
     ],
     sidebar: getSidebar(),
+  },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@assets': path.resolve(__dirname, '/docs/.vuepress/assets'),
+      },
+    },
   },
 };

@@ -1,0 +1,45 @@
+.material-container {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0px 50px 170px 50px;
+  .rich-material {
+    padding-top: 129px;
+    max-width: 1070px;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    .material-img {
+      width: 694px;
+      height: 457px;
+      margin-right: 68px;
+    }
+    .material-describe {
+      max-width: 401px;
+      min-width: 275px;
+      .title {
+        font: bold 32px SFProText-Bold;
+        margin: 17px 0;
+      }
+      .detail {
+        font: 16px/30px PingFangSC-Light;
+        color: #36415f;
+        margin: 17px 0 39px 0;
+      }
+      .material-nav {
+        margin-top: 73px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 750px) {
+  .material-container {
+    .material-img {
+      display: none;
+    }
+    .material-describe {
+      text-align: center;
+    }
+  }
+}
