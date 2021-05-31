@@ -36,6 +36,5 @@ export default {
   background-position: 0 -75px, center;
   background-repeat: no-repeat;
   background-size: 100% 1425px;
-  padding: 113px 0px 111px;
 }
 </style>
