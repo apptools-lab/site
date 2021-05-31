@@ -30,7 +30,7 @@ export default {
         { img: require('@assets/Home/Body/UserGroup/Laz.png'), text: 'Lazada' },
         { img: require('@assets/Home/Body/UserGroup/youku.png'), text: '优酷' },
         { img: require('@assets/Home/Body/UserGroup/UC.png'), text: 'UC' },
-        { img: require('@assets/Home/Body/UserGroup/ele.png'), text: '饿了吗' },
+        { img: require('@assets/Home/Body/UserGroup/ele.png'), text: '饿了么' },
         { img: require('@assets/Home/Body/UserGroup/alibabacloud.png'), text: '阿里云' },
       ],
     };
