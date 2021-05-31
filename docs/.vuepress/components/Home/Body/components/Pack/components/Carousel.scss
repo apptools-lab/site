@@ -1,5 +1,5 @@
 .carousel-container {
-  height: 853px;
+  height: 953px;
   width: 70%;
   .nav-items {
     line-height: 40px;
@@ -25,9 +25,13 @@
   }
   .carousel-message {
     font: 16px/30px PingFangSC-Light;
-    margin: 41px auto 83px auto;
+    margin: 41px auto 0 auto;
     max-width: 539px;
     text-align: center;
+  }
+  .quick-start {
+    display: block;
+    margin: 50px auto;
   }
   .carousel-wrapper {
     display: flex;

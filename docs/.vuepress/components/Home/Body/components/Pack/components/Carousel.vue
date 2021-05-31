@@ -18,6 +18,7 @@
         {{ carouselItems[activeIndex].message }}
       </p>
     </transition>
+    <quick-start link="" class="qucik-start" />
     <div class="carousel-wrapper">
       <button class="carousel-button left" @click="handleDesc">&lt;</button>
       <transition name="fade" mode="out-in">
@@ -34,8 +35,10 @@
 </template>
 
 <script>
+import QuickStart from '../../public/QuickStart.vue';
 export default {
   name: 'Carousel',
+  components: { QuickStart },
   data() {
     return {
       carouselItems: [
