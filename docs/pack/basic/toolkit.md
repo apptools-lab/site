@@ -16,7 +16,7 @@ order: 1
 
 ## 安装 Toolkit
 
-mac 版本：[下载地址](https://iceworks.oss-cn-hangzhou.aliyuncs.com/toolkit/AppWorks%20Toolkit.dmg)
+mac 版本：[下载地址](https://iceworks.oss-cn-hangzhou.aliyuncs.com/toolkit/mac/AppWorks%20Toolkit.dmg)
 
 ## 使用 Toolkit
 

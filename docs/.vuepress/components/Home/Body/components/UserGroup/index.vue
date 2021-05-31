@@ -1,6 +1,6 @@
 <template>
   <article class="usergroup-container">
-    <h4 class="title">Who is using?</h4>
+    <h4 class="title">谁在使用？</h4>
     <div class="user-items">
       <user-item class="user-item" v-for="user in users" :key="user.text" :user="user" />
     </div>

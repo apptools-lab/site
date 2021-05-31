@@ -1,10 +1,21 @@
 <template>
-  <a href="" class="quick-start">Quick Start</a>
+  <a :href="link" class="quick-start">{{text}}</a>
 </template>
 
 <script>
 export default {
   name: 'QuickStart',
+   props: {
+    link: {
+      type: String,
+      require: true,
+    },
+    text: {
+      type: String,
+      require: false,
+      default: '快速开始'
+    },
+  },
 };
 </script>
 
