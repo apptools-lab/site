@@ -16,7 +16,7 @@ order: 1
 
 ## 安装 Toolkit
 
-mac 版本：[下载地址](https://iceworks.oss-cn-hangzhou.aliyuncs.com/toolkit/AppWorks%20Toolkit.dmg)
+mac 版本：[下载地址](https://iceworks.oss-cn-hangzhou.aliyuncs.com/toolkit/mac/AppWorks%20Toolkit.dmg)
 
 ## 使用 Toolkit
 
@@ -26,7 +26,7 @@ mac 版本：[下载地址](https://iceworks.oss-cn-hangzhou.aliyuncs.com/toolki
 2. 点击右上角的『一键安装』按钮
 3. 选择需要安装的工具，点击『确认』按钮，等待片刻后完成环境的安装
 
-![快速安装环境](https://img.alicdn.com/imgextra/i4/O1CN01VlMLYK1ebfNJgMw7v_!!6000000003890-2-tps-2200-1448.png_790x10000.jpg)
+![快速安装环境](https://img.alicdn.com/imgextra/i3/O1CN01BLEp8u1S3WSm8caVS_!!6000000002191-2-tps-2200-1448.png)
 
 ### Node 管理
 
