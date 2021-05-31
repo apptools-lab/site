@@ -2,6 +2,7 @@ const getSidebar = require('./utils/getSidebar');
 const path = require('path');
 module.exports = {
   title: 'AppWorks',
+  head: [['link', { rel: 'icon', href: '/icon.png' }]],
   markdown: {
     lineNumbers: true,
     extendMarkdown: (md) => {

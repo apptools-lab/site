@@ -32,6 +32,7 @@
   .quick-start {
     display: block;
     margin: 50px auto;
+    width: 160px;
   }
   .carousel-wrapper {
     display: flex;
@@ -61,7 +62,7 @@
       border-radius: 1%;
       box-shadow: -5px 10px 50px gray;
     }
-    .left{
+    .left {
       margin-right: 10px;
     }
     .right {
@@ -70,7 +71,7 @@
   }
   .fade-enter-active,
   .fade-leave-active {
-    transition: opacity .5s;
+    transition: opacity 0.5s;
   }
   .fade-enter,
   .fade-leave-to {
