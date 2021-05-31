@@ -1,11 +1,11 @@
 <template>
-  <a :href="link" class="quick-start">{{text}}</a>
+  <a :href="link" class="quick-start">{{ text }}</a>
 </template>
 
 <script>
 export default {
   name: 'QuickStart',
-   props: {
+  props: {
     link: {
       type: String,
       require: true,
@@ -13,7 +13,7 @@ export default {
     text: {
       type: String,
       require: false,
-      default: '快速开始'
+      default: '快速开始',
     },
   },
 };

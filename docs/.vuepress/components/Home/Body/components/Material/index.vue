@@ -21,9 +21,21 @@ export default {
   data() {
     return {
       materialNavItems: [
-        { imgSource: require('@assets/Home/Body/Material/material-icon1.png'), linkSource: '/materialCenter/fusion', text: '官方物料' },
-        { imgSource: require('@assets/Home/Body/Material/material-icon2.png'), linkSource: '/materials/get_start', text: '开发物料' },
-        { imgSource: require('@assets/Home/Body/Material/material-icon3.png'), linkSource: '/pack/basic/materials', text: '使用物料' },
+        {
+          imgSource: require('@assets/Home/Body/Material/material-icon1.png'),
+          linkSource: '/materialCenter/fusion',
+          text: '官方物料',
+        },
+        {
+          imgSource: require('@assets/Home/Body/Material/material-icon2.png'),
+          linkSource: '/materials/get_start',
+          text: '开发物料',
+        },
+        {
+          imgSource: require('@assets/Home/Body/Material/material-icon3.png'),
+          linkSource: '/pack/basic/materials',
+          text: '使用物料',
+        },
       ],
     };
   },

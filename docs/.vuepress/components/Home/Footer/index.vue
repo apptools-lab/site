@@ -23,7 +23,11 @@ export default {
       resource: {
         title: '友链',
         linkItems: [
-          { img: 'https://img.alicdn.com/tps/TB1Nv_wKXXXXXbmXVXXXXXXXXXX-295-195.png', url: 'https://fed.taobao.org/', text: 'FED' },
+          {
+            img: 'https://img.alicdn.com/tps/TB1Nv_wKXXXXXbmXVXXXXXXXXXX-295-195.png',
+            url: 'https://fed.taobao.org/',
+            text: 'FED',
+          },
           { img: 'https://img.alicdn.com/tfs/TB1bbwkzY2pK1RjSZFsXXaNlXXa-128-128.png', url: '', text: 'imgcook' },
         ],
       },
@@ -31,23 +35,51 @@ export default {
         title: '社区',
         linkItems: [
           // { img: 'https://gw.alicdn.com/tfs/TB1H_16eeH2gK0jSZFEXXcqMpXa-60-60.png', url: '', text: '知乎' },
-          { img: 'https://gw.alicdn.com/tfs/TB1H5bLeaL7gK0jSZFBXXXZZpXa-78-78.jpg', url: 'https://github.com/appworks-lab/pack', text: 'Pack' },
-          { img: 'https://gw.alicdn.com/tfs/TB1H5bLeaL7gK0jSZFBXXXZZpXa-78-78.jpg', url: 'https://github.com/appworks-lab/toolkit', text: 'Toolkit' },
+          {
+            img: 'https://gw.alicdn.com/tfs/TB1H5bLeaL7gK0jSZFBXXXZZpXa-78-78.jpg',
+            url: 'https://github.com/appworks-lab/pack',
+            text: 'Pack',
+          },
+          {
+            img: 'https://gw.alicdn.com/tfs/TB1H5bLeaL7gK0jSZFBXXXZZpXa-78-78.jpg',
+            url: 'https://github.com/appworks-lab/toolkit',
+            text: 'Toolkit',
+          },
         ],
       },
       help: {
         title: '帮助',
         linkItems: [
-          { img: '', url: 'https://github.com/appworks-lab/pack/issues/new?assignees=&labels=bug&template=bug_report.md', text: '反馈问题' },
-          { img: '', url: 'https://github.com/appworks-lab/pack/issues/new?assignees=&labels=enhancement&template=feature_request.md', text: '提交需求' },
+          {
+            img: '',
+            url: 'https://github.com/appworks-lab/pack/issues/new?assignees=&labels=bug&template=bug_report.md',
+            text: '反馈问题',
+          },
+          {
+            img: '',
+            url: 'https://github.com/appworks-lab/pack/issues/new?assignees=&labels=enhancement&template=feature_request.md',
+            text: '提交需求',
+          },
         ],
       },
       more: {
         title: '更多',
         linkItems: [
-          { img: 'https://img.alicdn.com/tps/TB1kBU7NpXXXXXLXXXXXXXXXXXX-160-160.png', url: 'https://ice.work/', text: 'ICE' },
-          { img: 'https://img.alicdn.com/tfs/TB1H2Kcb1H2gK0jSZFEXXcqMpXa-70-72.png', url: 'https://rax.js.org/', text: 'Rax' },
-          { img: 'https://img.alicdn.com/tfs/TB1k4.laW6qK1RjSZFmXXX0PFXa-237-237.png', url: 'https://midwayjs.org/', text: 'Midway' },
+          {
+            img: 'https://img.alicdn.com/tps/TB1kBU7NpXXXXXLXXXXXXXXXXXX-160-160.png',
+            url: 'https://ice.work/',
+            text: 'ICE',
+          },
+          {
+            img: 'https://img.alicdn.com/tfs/TB1H2Kcb1H2gK0jSZFEXXcqMpXa-70-72.png',
+            url: 'https://rax.js.org/',
+            text: 'Rax',
+          },
+          {
+            img: 'https://img.alicdn.com/tfs/TB1k4.laW6qK1RjSZFmXXX0PFXa-237-237.png',
+            url: 'https://midwayjs.org/',
+            text: 'Midway',
+          },
         ],
       },
     };
