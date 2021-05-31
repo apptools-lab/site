@@ -55,14 +55,14 @@ export default {
           adjective: '强大',
           text: '的编码辅助',
           message:
-            '代码补全，定义预览与跳转，代码片段，代码重构的多重助力，让前端工程开发更轻松。不但支持 JavaScript 文件，对样式文件同样有效',
+            '代码补全，定义预览与跳转，代码片段，代码重构的多重助力，让前端工程开发更轻松。不但支持 JavaScript 文件，对样式文件同样有效。',
           img: require('@assets/Home/Body/Pack/code-auxiliary.gif'),
         },
         {
           adjective: '详尽',
           text: '的代码分析',
           message:
-            '非常快速的获取多维度检测报告，支持一键快速修复问题。帮助团队实现代码规范统一，提升和改善代码质量。并为阿里内部工程提供数据分析服务',
+            '非常快速的获取多维度检测报告，支持一键快速修复问题。帮助团队实现代码规范统一，提升和改善代码质量。并为阿里内部工程提供数据分析服务。',
           img: require('@assets/Home/Body/Pack/code-quality.gif'),
         },
         {
@@ -75,6 +75,10 @@ export default {
       ],
       activeIndex: 0,
     };
+  },
+  mounted() {
+    // autoPlay
+    setInterval(() => this.handleAdd(), 20 * 1000);
   },
   methods: {
     handleChangeActive(index) {
