@@ -40,7 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .usergroup-container {
-  padding: 193px 50px 196px;
+  padding: 100px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
