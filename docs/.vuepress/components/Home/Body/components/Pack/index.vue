@@ -21,7 +21,7 @@ export default {
 <style lang="scss" scoped>
 .suite-container {
   .suite-wrapper {
-    padding: 93px;
+    padding: 93px 0 151px;
     display: flex;
     flex-direction: column;
     align-items: center;

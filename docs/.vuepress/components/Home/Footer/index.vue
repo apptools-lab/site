@@ -111,7 +111,6 @@ export default {
     text-align: center;
     padding: 16px 40px;
     margin: 0 50px;
-    border-top: 1px solid #666;
     color: #999;
   }
 }

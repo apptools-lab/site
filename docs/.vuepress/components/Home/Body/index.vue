@@ -5,7 +5,6 @@
     <Toolkit />
     <Pack />
     <Material />
-    <UserGroup />
   </div>
 </template>
 
@@ -15,8 +14,6 @@ import Toolkit from './components/Toolkit';
 import MainLogo from './components/MainLogo';
 import Pack from './components/Pack';
 import Material from './components/Material';
-import UserGroup from './components/UserGroup';
-
 export default {
   name: 'Body',
   components: {
@@ -25,7 +22,6 @@ export default {
     Toolkit,
     Pack,
     Material,
-    UserGroup,
   },
 };
 </script>

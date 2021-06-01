@@ -1,17 +1,15 @@
 <template>
   <div class="carousel-container">
-    <nav>
-      <ul class="nav-items">
-        <li
-          class="nav-item"
-          :class="activeIndex === index ? 'nav-item-active' : ''"
-          v-for="(item, index) in carouselItems"
-          :key="index"
-          @click="handleChangeActive(index)"
-        >
-          {{ item.adjective }}{{ activeIndex === index ? item.text : '' }}
-        </li>
-      </ul>
+    <nav class="nav-items">
+      <li
+        class="nav-item"
+        :class="activeIndex === index ? 'nav-item-active' : ''"
+        v-for="(item, index) in carouselItems"
+        :key="index"
+        @click="handleChangeActive(index)"
+      >
+        {{ item.adjective }}{{ activeIndex === index ? item.text : '' }}
+      </li>
     </nav>
     <transition name="fade" mode="out-in">
       <p class="carousel-message" :key="carouselItems[activeIndex].message">
@@ -25,16 +23,13 @@
       :key="carouselItems[activeIndex].link"
     />
     <div class="carousel-wrapper">
-      <button class="carousel-button left" @click="handleDesc">&lt;</button>
-      <transition name="fade" mode="out-in">
-        <img
-          :src="carouselItems[activeIndex].img"
-          alt="img"
-          class="carousel-img"
-          :key="carouselItems[activeIndex].message"
-        />
-      </transition>
-      <button class="carousel-button right" @click="handleAdd">&gt;</button>
+      <button class="carousel-button left iconfont" @click="handleDesc">&#xe617;</button>
+      <div class="carousel-slide-container">
+        <transition name="fade" mode="out-in">
+          <img :src="carouselItems[activeIndex].img" alt="carousel-img" :key="carouselItems[activeIndex].message" />
+        </transition>
+      </div>
+      <button class="carousel-button right iconfont" @click="handleAdd">&#xe638;</button>
     </div>
   </div>
 </template>
@@ -82,21 +77,33 @@ export default {
         },
       ],
       activeIndex: 0,
+      timeId: null,
     };
   },
   mounted() {
     // autoPlay
-    setInterval(() => this.handleAdd(), 20 * 1000);
+    this.createTick();
   },
   methods: {
+    createTick() {
+      if (this.timeId) {
+        clearInterval(this.timeId);
+      }
+      this.timeId = setInterval(() => {
+        this.activeIndex = (this.activeIndex + 1) % 5;
+      }, 30 * 1000);
+    },
     handleChangeActive(index) {
       this.activeIndex = index;
+      this.createTick();
     },
     handleAdd() {
       this.activeIndex = (this.activeIndex + 1) % 5;
+      this.createTick();
     },
     handleDesc() {
       this.activeIndex = (this.activeIndex - 1 + 5) % 5;
+      this.createTick();
     },
   },
 };
@@ -104,4 +111,5 @@ export default {
 
 <style lang="scss" scoped>
 @import './Carousel';
+@import '~@/styles/icon';
 </style>

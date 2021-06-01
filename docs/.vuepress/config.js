@@ -24,20 +24,21 @@ module.exports = {
           { text: 'Vue 物料', link: '/materialCenter/vue' },
         ],
       },
-      // {
-      //   text: '其它',
-      //   ariaLabel: 'Menu',
-      //   items: [
-      //     { text: 'Rax', link: 'https://rax.alibaba-inc.com/' },
-      //     { text: 'ICE', link: 'https://ice.alibaba-inc.com/' },
-      //   ],
-      // },
+      {
+        text: '研发中心',
+        link: 'https://appworks.alibaba-inc.com/',
+      },
+      {
+        text: 'Github',
+        link: 'https://github.com/appworks-lab',
+      },
     ],
     sidebar: getSidebar(),
   },
   configureWebpack: {
     resolve: {
       alias: {
+        '@': path.resolve(__dirname, '/docs/.vuepress'),
         '@assets': path.resolve(__dirname, '/docs/.vuepress/assets'),
       },
     },
