@@ -30,8 +30,8 @@ module.exports = {
       },
       {
         text: 'Github',
-        link: 'https://github.com/appworks-lab'
-      }
+        link: 'https://github.com/appworks-lab',
+      },
     ],
     sidebar: getSidebar(),
   },

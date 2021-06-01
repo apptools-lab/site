@@ -57,8 +57,7 @@ export default {
           },
           {
             img: '',
-            url:
-              'https://github.com/appworks-lab/pack/issues/new?assignees=&labels=enhancement&template=feature_request.md',
+            url: 'https://github.com/appworks-lab/pack/issues/new?assignees=&labels=enhancement&template=feature_request.md',
             text: '提交需求',
           },
         ],
