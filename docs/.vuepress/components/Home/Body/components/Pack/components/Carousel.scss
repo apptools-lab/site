@@ -1,26 +1,31 @@
 .carousel-container {
-  height: 903px;
-  width: 70%;
-  .nav-items {
-    line-height: 40px;
-    border-bottom: 1px solid rgba(151, 151, 151, 0.32);
-    margin-bottom: 41px;
-    padding: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    .nav-item {
-      color: #b7b7b7;
-      font-size: 18px;
-      display: inline-block;
-      list-style: none;
-      padding: 0 15px;
-      cursor: pointer;
-    }
-    .nav-item-active {
-      color: #252020;
-      font-size: 16px;
-      border-bottom: 2px solid #152dff;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .nav {
+    width: 50%;
+    .nav-items {
+      line-height: 40px;
+      border-bottom: 1px solid rgba(151, 151, 151, 0.32);
+      margin-bottom: 41px;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      .nav-item {
+        color: #b7b7b7;
+        font-size: 18px;
+        display: inline-block;
+        list-style: none;
+        padding: 0 15px;
+        cursor: pointer;
+      }
+      .nav-item-active {
+        color: #252020;
+        font-size: 16px;
+        border-bottom: 2px solid #152dff;
+      }
     }
   }
   .carousel-message {
@@ -35,21 +40,33 @@
     width: 160px;
   }
   .carousel-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background: no-repeat center/95% url(~@assets/Home/Body/Pack/MacBook.png);
+    width: 1234px;
+    height: 666px;
     margin: auto;
-    max-width: 1170px;
-    min-height: 584px;
     position: relative;
+    .carousel-slide-container {
+      position: relative;
+      margin: auto;
+      top: 4.2%;
+      left: 0.5%;
+      width: 69%;
+      height: 83%;
+      img {
+        height: 100%;
+        width: 100%;
+        border-radius: 1%;
+      }
+    }
     .carousel-button {
+      position: absolute;
       outline: none;
       width: 44px;
       height: 44px;
       background-color: #d8d8d8;
       color: #fff;
       border: none;
-      font-size: 40px;
+      font-size: 24px;
       border-radius: 50%;
       cursor: pointer;
     }
@@ -57,16 +74,15 @@
       color: rgba(0, 0, 0, 0.1);
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     }
-    .carousel-img {
-      width: 80%;
-      border-radius: 1%;
-      box-shadow: -5px 10px 50px gray;
-    }
     .left {
-      margin-right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
     }
     .right {
-      margin-left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
     }
   }
   .fade-enter-active,

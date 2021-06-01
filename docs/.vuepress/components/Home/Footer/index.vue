@@ -57,7 +57,8 @@ export default {
           },
           {
             img: '',
-            url: 'https://github.com/appworks-lab/pack/issues/new?assignees=&labels=enhancement&template=feature_request.md',
+            url:
+              'https://github.com/appworks-lab/pack/issues/new?assignees=&labels=enhancement&template=feature_request.md',
             text: '提交需求',
           },
         ],
@@ -111,7 +112,6 @@ export default {
     text-align: center;
     padding: 16px 40px;
     margin: 0 50px;
-    border-top: 1px solid #666;
     color: #999;
   }
 }

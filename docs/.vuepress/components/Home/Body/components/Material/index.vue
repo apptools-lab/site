@@ -6,7 +6,7 @@
       <div class="material-describe">
         <h4 class="title">海量物料</h4>
         <p class="detail">提供多种垂直领域模板和区块，快速创建项目，支持风格切换，满足个性化需求。</p>
-        <quick-start text="关于物料" link="/materials/about" />
+        <quick-start text="使用物料" link="/pack/basic/materials" />
         <nav-links class="material-nav" :navItems="materialNavItems" />
       </div>
     </div>
@@ -24,17 +24,17 @@ export default {
         {
           imgSource: require('@assets/Home/Body/Material/material-icon1.png'),
           linkSource: '/materialCenter/fusion',
-          text: '官方物料',
+          text: 'Fusion 物料',
         },
         {
           imgSource: require('@assets/Home/Body/Material/material-icon2.png'),
-          linkSource: '/materials/get_start',
-          text: '开发物料',
+          linkSource: '/materialCenter/antd',
+          text: 'Ant Design 物料',
         },
         {
           imgSource: require('@assets/Home/Body/Material/material-icon3.png'),
-          linkSource: '/pack/basic/materials',
-          text: '使用物料',
+          linkSource: '/materialCenter/Rax',
+          text: 'Rax 物料',
         },
       ],
     };
