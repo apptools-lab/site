@@ -33,7 +33,7 @@ export default {
         },
         {
           imgSource: require('@assets/Home/Body/Material/material-icon3.png'),
-          linkSource: '/materialCenter/Rax',
+          linkSource: '/materialCenter/rax',
           text: 'Rax 物料',
         },
       ],
