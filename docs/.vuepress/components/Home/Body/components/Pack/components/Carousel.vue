@@ -1,17 +1,15 @@
 <template>
   <div class="carousel-container">
-    <nav class="nav">
-      <ul class="nav-items">
-        <li
-          class="nav-item"
-          :class="activeIndex === index ? 'nav-item-active' : ''"
-          v-for="(item, index) in carouselItems"
-          :key="index"
-          @click="handleChangeActive(index)"
-        >
-          {{ item.adjective }}{{ activeIndex === index ? item.text : '' }}
-        </li>
-      </ul>
+    <nav class="nav-items">
+      <li
+        class="nav-item"
+        :class="activeIndex === index ? 'nav-item-active' : ''"
+        v-for="(item, index) in carouselItems"
+        :key="index"
+        @click="handleChangeActive(index)"
+      >
+        {{ item.adjective }}{{ activeIndex === index ? item.text : '' }}
+      </li>
     </nav>
     <transition name="fade" mode="out-in">
       <p class="carousel-message" :key="carouselItems[activeIndex].message">
