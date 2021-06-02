@@ -25,10 +25,6 @@ module.exports = {
         ],
       },
       {
-        text: '研发中心',
-        link: 'https://appworks.alibaba-inc.com/',
-      },
-      {
         text: 'Github',
         link: 'https://github.com/appworks-lab',
       },
