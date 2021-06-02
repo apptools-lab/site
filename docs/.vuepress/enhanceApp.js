@@ -14,7 +14,7 @@ function hideInternalNav() {
 }
 
 // 兼容 vuepress Node 环境运行
-if (typeof (window) !== 'undefined') {
+if (typeof window !== 'undefined') {
   var img = new Image();
   img.src = PRIVATE_URL;
   img.onerror = function () {
