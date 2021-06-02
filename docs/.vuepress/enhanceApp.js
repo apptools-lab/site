@@ -1,5 +1,6 @@
 var INTERVAL = 100;
-var PRIVATE_URL = 'https://private-alipayobjects.alipay.com/alipay-rmsdeploy-image/rmsportal/VmvVUItLdPNqKlNGuRHi.png?r=' + Date.now();
+var PRIVATE_URL =
+  'https://private-alipayobjects.alipay.com/alipay-rmsdeploy-image/rmsportal/VmvVUItLdPNqKlNGuRHi.png?r=' + Date.now();
 
 var img = new Image();
 img.src = PRIVATE_URL;
