@@ -13,16 +13,19 @@ function hideInternalNav() {
   }
 }
 
-var img = new Image();
-img.src = PRIVATE_URL;
-img.onerror = function () {
-  timer = setInterval(hideInternalNav, INTERVAL);
-};
+// 兼容 vuepress Node 环境运行
+if (typeof (window) !== 'undefined') {
+  var img = new Image();
+  img.src = PRIVATE_URL;
+  img.onerror = function () {
+    timer = setInterval(hideInternalNav, INTERVAL);
+  };
 
-// 避免外层配置变化导致定时器一直存在
-window.onload = function () {
-  if (timer) {
-    hideInternalNav();
-    clearInterval(timer);
-  }
-};
+  // 避免外层配置变化导致定时器一直存在
+  window.onload = function () {
+    if (timer) {
+      hideInternalNav();
+      clearInterval(timer);
+    }
+  };
+}
