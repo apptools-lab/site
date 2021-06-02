@@ -2,7 +2,7 @@
   <article class="suite-container">
     <a name="suite" id="suite"></a>
     <div class="suite-wrapper">
-      <h3 class="title">多端研发套件</h3>
+      <h3 class="title">前端研发套件</h3>
       <carousel />
     </div>
   </article>

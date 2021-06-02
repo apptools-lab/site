@@ -24,7 +24,7 @@ export default {
     return {
       navItems: [
         { text: '开发工具箱', targetUrl: '#toolkit', imgUrl: require('@assets/Home/Body/Nav/label-logo.png') },
-        { text: '多端研发套件', targetUrl: '#suite' },
+        { text: '前端研发套件', targetUrl: '#suite' },
         { text: '海量物料', targetUrl: '#materials' },
       ],
     };
