@@ -30,7 +30,7 @@ AppWorks 是一个前端研发工具集，通过提供桌面客户端、编辑�
 
 ### 前端研发套件
 
-![前端研发套件](https://img.alicdn.com/imgextra/i4/O1CN01Ctz35f1rxH4RZUH5n_!!6000000005697-2-tps-2880-1648.png)
+![前端研发套件](https://img.alicdn.com/imgextra/i4/O1CN01Ctz35f1rxH4RZUH5n_!!6000000005697-2-tps-2880-1648.png_790x10000.jpg)
 
 前端研发套件是一套 VS Code 插件的集合，安装后将完成前端开发的最佳编辑器配置，提供的核心能力有：
 
