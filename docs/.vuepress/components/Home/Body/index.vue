@@ -28,7 +28,7 @@ export default {
 
 <style lang="scss" scoped>
 .body-container {
-  background-image: url(~@assets/Home/Body/background.png);
+  background-image: url('https://img.alicdn.com/imgextra/i4/O1CN01hKWekV1Gfk7rZ26P8_!!6000000000650-2-tps-3840-2820.png');
   background-position: 0 -75px, center;
   background-repeat: no-repeat;
   background-size: 100% 1425px;
