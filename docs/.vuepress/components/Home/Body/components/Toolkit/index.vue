@@ -11,7 +11,11 @@
         />
         <nav-links class="toolkit-nav" :navItems="toolkitNavItems" />
       </div>
-      <img :src="require('@assets/Home/Body/Toolkit/toolkit-img.png')" alt="" class="toolkit-img" />
+      <img
+        src="https://img.alicdn.com/imgextra/i2/O1CN01gjN3b220ZIshZVz2V_!!6000000006863-2-tps-1800-1080.png"
+        alt=""
+        class="toolkit-img"
+      />
     </div>
   </article>
 </template>
@@ -29,12 +33,12 @@ export default {
     return {
       toolkitNavItems: [
         {
-          imgSource: require('@assets/Home/Body/Toolkit/toolkit-icon1.png'),
+          imgSource: 'https://img.alicdn.com/imgextra/i4/O1CN01zXkrs726AvUqABdug_!!6000000007622-2-tps-23-23.png',
           linkSource: '/pack/basic/toolkit#使用-toolkit',
           text: '环境配置',
         },
         {
-          imgSource: require('@assets/Home/Body/Toolkit/toolkit-icon2.png'),
+          imgSource: 'https://img.alicdn.com/imgextra/i2/O1CN01YQ4UM11RDJJChNCmS_!!6000000002077-2-tps-25-25.png',
           linkSource: '/pack/basic/toolkit#使用-toolkit',
           text: '软件管理',
         },
