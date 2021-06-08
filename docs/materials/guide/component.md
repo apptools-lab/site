@@ -32,7 +32,7 @@ $ iceworks init component
 
 #### 通过 DEF 初始化
 
-> 如果是阿里内部的同学并且想接入 DEF 发布 npm 包，可以参考文档 [组件开发接入 DEF](https://yuque.alibaba-inc.com/ice/rdy99p/gbekwv)
+> 如果是**阿里内部**的同学并且想接入 DEF 发布 npm 包，可以参考文档 [组件开发接入 DEF](https://yuque.alibaba-inc.com/ice/rdy99p/gbekwv)
 
 ## 组件开发调试
 
