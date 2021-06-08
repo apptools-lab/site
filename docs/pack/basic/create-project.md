@@ -31,7 +31,7 @@ title: 创建应用
 
 ## 创建 DEF 应用
 
-除此之外，阿里内部开发者还可以通过应用创建器创建 [DEF 应用](https://work.def.alibaba-inc.com/doc)。
+除此之外，**阿里内部开发者**还可以通过应用创建器创建 [DEF 应用](https://work.def.alibaba-inc.com/doc)。
 
 在创建应用的最后一步选择「创建 DEF 应用」：
 

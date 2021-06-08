@@ -23,7 +23,7 @@ AppWorks 增强了前端开发者经常使用的 JS 及样式相关文件的代�
 - React 业务组件 Props 的代码补全
 - MTOP API 的代码补全
 
-> MTOP（Mobile Taobao Open Platform）是阿里内部为客户端和服务端提供的一致的 API 平台
+> MTOP（Mobile Taobao Open Platform）是**阿里内部**为客户端和服务端提供的一致的 API 平台
 
 ### Rax 工程
 
