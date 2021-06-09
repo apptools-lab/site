@@ -42,7 +42,9 @@ export default {
         font-size: 14px;
       }
       .nav-link::after {
-        content: ' >';
+        vertical-align: top;
+        content: '>';
+        margin-left: 7px;
       }
     }
   }
