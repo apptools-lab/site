@@ -43,9 +43,8 @@ export default {
       }
       .nav-link::after {
         vertical-align: top;
-        content: ' >';
-        font-size: 14px;
-        margin-left: 5px;
+        content: '>';
+        margin-left: 7px;
       }
     }
   }
