@@ -65,6 +65,9 @@ VS Code 对于样式文件的代码补全优化较少，AppWorks 提供了：
 
 我们通过代码补全的方式，提高模块引入的体验。
 
+在大多数情况下，开发者可能会需要在文件编辑的过程中引入同级目录文件、在 JSX / TSX 文件引入 `components` 文件夹下的相关组件等等。
+AppWorks 通过前端开发者编辑需求，对模块引入进行猜测，提供前端开发者更美好的开发体验。
+
 示例如下：
 
-![img](https://img.alicdn.com/imgextra/i4/O1CN01pAJJv41aoiCzxyw2b_!!6000000003377-1-tps-1212-682.gif)
+![img](https://img.alicdn.com/imgextra/i2/O1CN01v4Y6b61Z1PxvrQ8bJ_!!6000000003134-1-tps-830-468.gif)
