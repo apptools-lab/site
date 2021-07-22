@@ -56,17 +56,11 @@ Toolkit 提供全局 npm 依赖的可视化管理，支持查看、安装、重�
 
 ![安装依赖](https://img.alicdn.com/imgextra/i2/O1CN01RrnEcT1oFoeTXw6Py_!!6000000005196-2-tps-2200-1448.png_790x10000.jpg)
 
-##### 更新依赖
+##### 更新、重装、卸载依赖
 
-当全局依赖有可更新的版本时，可以点击『升级』图标，一键升级本地的依赖到最新版本。
+当全局依赖有可更新的版本时，可以点击『升级』图标进行一键升级。在操作一栏中，点击『重装』和『卸载』图标可快速对全局依赖进行重装和卸载。
 
-![更新全局依赖](https://img.alicdn.com/imgextra/i3/O1CN01gdAz0U1gKq4Ojsh6Y_!!6000000004124-2-tps-2200-1448.png_790x10000.jpg)
-
-##### 重装和卸载依赖
-
-在操作一栏中，点击『重装』和『卸载』图标可快速对全局依赖进行重装和卸载。
-
-![重装和卸载依赖](https://img.alicdn.com/imgextra/i4/O1CN01Yg4fEo1fWutgxK3sd_!!6000000004015-2-tps-2200-1448.png_790x10000.jpg)
+![更新、重装、卸载依赖](https://img.alicdn.com/imgextra/i3/O1CN01O6G2Sq1O6wyamHvie_!!6000000001657-2-tps-2200-1448.png_790x10000.jpg)
 
 ### Git 管理
 
