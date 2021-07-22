@@ -63,14 +63,8 @@ VS Code 对于样式文件的代码补全优化较少，AppWorks 提供了：
 
 ## 辅助引入
 
-我们通过代码补全的方式，提高模块引入的体验。详情请看示例。
+我们通过代码补全的方式，提高模块引入的体验。
 
 示例如下：
 
-jsx 引入 components 目录文件：
-
-![img](https://img.alicdn.com/imgextra/i1/O1CN01TKFmnA1wKPYHKOGUo_!!6000000006289-1-tps-992-558.gif)
-
-store.[j|t]s 引入 models 目录文件：
-
-![img](https://img.alicdn.com/imgextra/i2/O1CN01uXRPMz1bNWJDZeHp9_!!6000000003453-1-tps-992-558.gif)
+![img](https://img.alicdn.com/imgextra/i4/O1CN01pAJJv41aoiCzxyw2b_!!6000000003377-1-tps-1212-682.gif)
