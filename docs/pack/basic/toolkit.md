@@ -103,7 +103,7 @@ Toolkit 不仅支持可视化管理全局 Git 配置，还支持管理用户的 
 1. 首先在配置中复制 SSH 公钥
    ![复制 SSH 公钥](https://img.alicdn.com/imgextra/i3/O1CN01HwP2sV1TPKx8Sb0VZ_!!6000000002374-2-tps-2200-1448.png_790x10000.jpg)
 2. 以 Github 举例，依次点击 Setting -> SSH and GPG keys -> New SSH Key，把刚才的复制的 SSH 公钥添加到 Github 中
-   ![Github SSH 添加公钥](https://img.alicdn.com/imgextra/i4/O1CN016EZv101pyWw57wlaT_!!6000000005429-2-tps-2842-1480.png)
+   ![Github SSH 添加公钥](https://img.alicdn.com/imgextra/i4/O1CN016EZv101pyWw57wlaT_!!6000000005429-2-tps-2842-1480.png_790x10000.jpg)
    ![Github SSH 添加公钥](https://img.alicdn.com/imgextra/i2/O1CN010vdSYs21lxS4q558W_!!6000000007026-2-tps-2136-1088.png_790x10000.jpg)
 3. SSH 公钥添加完成以后，就可以使用 SSH 协议操作 Git 仓库了
 
