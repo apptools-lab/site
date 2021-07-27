@@ -16,12 +16,6 @@
         {{ carouselItems[activeIndex].message }}
       </p>
     </transition>
-    <quick-start
-      class="quick-start"
-      text="安装 VS Code 插件"
-      link="vscode:extension/iceworks-team.iceworks"
-      :key="carouselItems[activeIndex].link"
-    />
     <div class="carousel-wrapper">
       <button class="carousel-button left iconfont" @click="handleDesc">&#xe617;</button>
       <div class="carousel-slide-container">
@@ -35,10 +29,8 @@
 </template>
 
 <script>
-import QuickStart from '../../public/QuickStart.vue';
 export default {
-  name: 'Carousel',
-  components: { QuickStart },
+  name: 'Carousel', 
   data() {
     return {
       carouselItems: [

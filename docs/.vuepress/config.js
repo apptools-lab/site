@@ -13,6 +13,7 @@ module.exports = {
     logo: 'https://img.alicdn.com/imgextra/i4/O1CN01AvqMOu1sYpY1j8xaI_!!6000000005779-2-tps-574-204.png',
     nav: [
       { text: '文档', link: '/pack/about' },
+      { text: 'Toolkit', link: '/pack/basic/toolkit' },
       {
         text: '物料',
         ariaLabel: 'Menu',

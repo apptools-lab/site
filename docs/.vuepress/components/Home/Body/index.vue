@@ -1,25 +1,19 @@
 <template>
   <div class="body-container">
     <MainLogo />
-    <Nav />
-    <Toolkit />
     <Pack />
     <Material />
   </div>
 </template>
 
 <script>
-import Nav from './components/Nav';
-import Toolkit from './components/Toolkit';
 import MainLogo from './components/MainLogo';
 import Pack from './components/Pack';
 import Material from './components/Material';
 export default {
   name: 'Body',
   components: {
-    MainLogo,
-    Nav,
-    Toolkit,
+    MainLogo,    
     Pack,
     Material,
   },
@@ -32,5 +26,6 @@ export default {
   background-position: 0 -75px, center;
   background-repeat: no-repeat;
   background-size: 100% 1425px;
+  background-color: #f9f9f9;
 }
 </style>

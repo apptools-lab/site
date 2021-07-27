@@ -9,11 +9,21 @@
       <p class="describe-title">AppWorks</p>
       <p class="describe-detail">前端研发工具集，让前端开发更快更好更轻松。</p>
     </div>
+    <quick-start
+      class="quick-start"
+      text="安装 AppWorks"
+      link="vscode:extension/iceworks-team.iceworks"
+    />
   </article>
 </template>
 
 <script>
-export default {};
+import QuickStart from '../public/QuickStart.vue';
+export default {
+  components: {
+    QuickStart,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
