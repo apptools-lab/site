@@ -13,7 +13,7 @@ import Material from './components/Material';
 export default {
   name: 'Body',
   components: {
-    MainLogo,    
+    MainLogo,
     Pack,
     Material,
   },

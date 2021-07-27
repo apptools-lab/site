@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: 'Carousel', 
+  name: 'Carousel',
   data() {
     return {
       carouselItems: [
