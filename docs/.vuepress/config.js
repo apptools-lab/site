@@ -26,7 +26,7 @@ module.exports = {
         ],
       },
       {
-        text: 'Github',
+        text: 'GitHub',
         link: 'https://github.com/appworks-lab',
       },
     ],

@@ -13,4 +13,4 @@ order: 3
 
 ## 支持 Vue 项目吗？
 
-目前除了『添加物料到源码』功能以外，其他功能均支持在 Vue 项目中使用。如果在 Vue 项目中使用 AppWorks 过程中有任何疑问，欢迎通过 [Issue](https://github.com/appworks-lab/pack/issues) 反馈给我们。
+目前除了『添加物料到源码』功能以外，其他功能均支持在 Vue 项目中使用。如果在 Vue 项目中使用 AppWorks 过程中有任何疑问，欢迎通过 [Issue](https://github.com/appworks-lab/appworks/issues) 反馈给我们。
