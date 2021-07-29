@@ -40,4 +40,13 @@ module.exports = {
       },
     },
   },
+  // https://vuepress.vuejs.org/plugin/official/plugin-google-analytics.html
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'G-RWP35PWF8L'
+      }
+    ]
+  ]
 };
