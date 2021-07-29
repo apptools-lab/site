@@ -37,7 +37,7 @@ export default {
           // { img: 'https://gw.alicdn.com/tfs/TB1H_16eeH2gK0jSZFEXXcqMpXa-60-60.png', url: '', text: '知乎' },
           {
             img: 'https://gw.alicdn.com/tfs/TB1H5bLeaL7gK0jSZFBXXXZZpXa-78-78.jpg',
-            url: 'https://github.com/appworks-lab/pack',
+            url: 'https://github.com/appworks-lab/appworks',
             text: 'Pack',
           },
           {
@@ -52,12 +52,12 @@ export default {
         linkItems: [
           {
             img: '',
-            url: 'https://github.com/appworks-lab/pack/issues/new?assignees=&labels=bug&template=bug_report.md',
+            url: 'https://github.com/appworks-lab/appworks/issues/new?assignees=&labels=bug&template=bug_report.md',
             text: '反馈问题',
           },
           {
             img: '',
-            url: 'https://github.com/appworks-lab/pack/issues/new?assignees=&labels=enhancement&template=feature_request.md',
+            url: 'https://github.com/appworks-lab/appworks/issues/new?assignees=&labels=enhancement&template=feature_request.md',
             text: '提交需求',
           },
         ],
