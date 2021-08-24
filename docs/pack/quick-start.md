@@ -5,17 +5,7 @@ order: 1
 
 # 快速开始
 
-## 安装
-
-### 安装 Toolkit
-
-[AppWorks Toolkit](/pack/basic/toolkit) 是一款桌面客户端，以帮助开发者简单快速地安装前端必备工具。我们可以使用 Toolkit 来一键安装 AppWorks 提供的所有工具。
-
-![前端开发工具箱](https://img.alicdn.com/imgextra/i4/O1CN01RSVZe71mFEuZalBij_!!6000000004924-2-tps-1800-1080.png_790x10000.jpg)
-
-### 安装 Pack
-
-你也可以自己手动安装 Pack：
+## 安装 AppWorks
 
 1. 点击 VS Code 左侧活动栏中的『插件管理图标』
 2. 在插件管理顶部的搜索框输入『AppWorks』
