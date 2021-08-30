@@ -5,6 +5,8 @@ order: 1
 
 # 前端环境
 
+> 如果已经配置好了 Node.js 等前端环境，则可跳过这篇文档
+
 前端社区日渐繁荣的同时，前端工程也日渐复杂，导致需要配置的开发环境也越来越复杂。一般来说，开发前端需要安装以下几款工具：
 
 - [Node.js](https://nodejs.org/)：能让你在本地开发时拥有 JavaScript 运行环境，mac 下推荐使用 [nvm](https://github.com/nvm-sh/nvm) 来管理 Node.js 版本，Windows 可使用[nvm-windows](https://github.com/coreybutler/nvm-windows)
