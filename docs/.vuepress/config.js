@@ -30,7 +30,7 @@ module.exports = {
       },
       {
         text: 'AppToolkit',
-        link: 'https://github.com/apptools-lab/AppToolkit#readme',
+        link: 'https://github.com/apptools-lab/apptoolkit#readme',
       },
     ],
     sidebar: getSidebar(),

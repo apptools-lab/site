@@ -42,7 +42,7 @@ export default {
           },
           {
             img: 'https://gw.alicdn.com/tfs/TB1H5bLeaL7gK0jSZFBXXXZZpXa-78-78.jpg',
-            url: 'https://github.com/apptools-lab/AppToolkit',
+            url: 'https://github.com/apptools-lab/apptoolkit',
             text: 'AppToolkit',
           },
         ],
