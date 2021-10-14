@@ -26,11 +26,11 @@ module.exports = {
       },
       {
         text: 'GitHub',
-        link: 'https://github.com/appworks-lab/appworks',
+        link: 'https://github.com/apptools-lab/appworks',
       },
       {
         text: 'AppToolkit',
-        link: 'https://github.com/appworks-lab/toolkit#readme',
+        link: 'https://github.com/apptools-lab/apptoolkit#readme',
       },
     ],
     sidebar: getSidebar(),
