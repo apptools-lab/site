@@ -27,13 +27,8 @@ export default {
       materialNavItems: [
         {
           imgSource: 'https://img.alicdn.com/imgextra/i1/O1CN019uFWfu1C84XtBCBOP_!!6000000000035-2-tps-50-50.png',
-          linkSource: '/materialCenter/fusion',
-          text: 'Fusion 物料',
-        },
-        {
-          imgSource: 'https://img.alicdn.com/imgextra/i1/O1CN01gYp0dM1nukQHwWaLq_!!6000000005150-2-tps-50-50.png',
-          linkSource: '/materialCenter/antd',
-          text: 'Ant Design 物料',
+          linkSource: '/materialCenter/react',
+          text: 'React 物料',
         },
         {
           imgSource: 'https://img.alicdn.com/imgextra/i1/O1CN01Obj2nB1zIWl3XWjc4_!!6000000006691-2-tps-52-42.png',

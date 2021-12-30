@@ -18,8 +18,7 @@ module.exports = {
         ariaLabel: 'Menu',
         items: [
           { text: '自定义物料', link: '/materials/about' },
-          { text: 'Fusion 物料', link: '/materialCenter/fusion' },
-          { text: 'Ant Design 物料', link: '/materialCenter/antd' },
+          { text: 'React 物料', link: '/materialCenter/react' },
           { text: 'Rax 物料', link: '/materialCenter/rax' },
           { text: 'Vue 物料', link: '/materialCenter/vue' },
         ],
