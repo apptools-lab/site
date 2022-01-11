@@ -1,1 +1,0 @@
-<MaterialCenter-Index :type="'AntDesign'"/>

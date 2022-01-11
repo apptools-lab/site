@@ -17,7 +17,7 @@ export default {
   },
   props: {
     type: {
-      type: String, // Fusion, AntDesign, Vue, Rax 物料
+      type: String, // React, Vue, Rax 物料
     },
   },
   data() {

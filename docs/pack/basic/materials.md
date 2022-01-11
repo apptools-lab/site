@@ -7,7 +7,7 @@ order: 4
 
 ## 官方物料
 
-AppWorks 默认提供丰富的 Fusion Design、 Ant Design 和 Rax 官方物料，以进一步提高开发效率。物料主要包括区块、模板、组件三种类型，更多关于物料的介绍可参考[《关于物料》](https://ice.work/docs/materials/about)。
+AppWorks 默认提供丰富的 React 和 Rax 官方物料，以进一步提高开发效率。物料主要包括区块、模板、组件三种类型，更多关于物料的介绍可参考[《关于物料》](https://ice.work/docs/materials/about)。
 
 ![官方物料](https://img.alicdn.com/imgextra/i2/O1CN01D19bxk1IvQvKHuNHr_!!6000000000955-2-tps-2048-1536.png_790x10000.jpg)
 
