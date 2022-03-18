@@ -5,7 +5,7 @@ order: 2
 
 ## `iceworks` -> `@appworks/cli`
 
-AppWorks CLI `@appworks/cli` 的前身是 Iceworks CLI `iceworks`，随着我们的可视化工具 VS Code 插件的品牌从 Iceworks 演变到 AppWorks，对应的物料开发工具也从 `iceworks` 升级为 `@appworks/CLI`。AppWorks CLI 与原先的 Iceworks CLI 在功能上完全一致，因此使用上不会有任何变化。
+AppWorks CLI `@appworks/cli` 的前身是 Iceworks CLI `iceworks`，随着我们的可视化工具 VS Code 插件的品牌从 Iceworks 演变到 AppWorks，对应的物料开发工具也从 `iceworks` 升级为 `@appworks/cli`。AppWorks CLI 与原先的 Iceworks CLI 在功能上完全一致，因此使用上不会有任何变化。
 
 升级步骤：
 
