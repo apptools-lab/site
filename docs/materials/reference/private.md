@@ -11,13 +11,13 @@ order: 1
 
 依赖 npm 源的场景：
 
-- `iceworks generate`：需要访问 npm registry 查询每个物料对应的版本是否发布，同时生成对应 `source.registry` 字段
-- `iceworks add`：下载模板或者区块需要访问 npm registry
-- `iceworks init`：下载模板需要访问 npm registry
+- `appworks generate`：需要访问 npm registry 查询每个物料对应的版本是否发布，同时生成对应 `source.registry` 字段
+- `appworks add`：下载模板或者区块需要访问 npm registry
+- `appworks init`：下载模板需要访问 npm registry
 
 依赖 unpkg 服务的场景：
 
-- `iceworks generate`：每个物料的 screenshot 和 homepage 默认通过 unpkg 托管，对应地址：
+- `appworks generate`：每个物料的 screenshot 和 homepage 默认通过 unpkg 托管，对应地址：
   - 截图：`https://unpkg.com/@icedesign/user-landing-block/screenshot.png`
   - 预览：`https://unpkg.com/@icedesign/user-landing-block@3.0.0/build/index.html`
 
@@ -28,13 +28,13 @@ order: 1
 ### 全局配置
 
 ```bash
-$ iceworks config set registry https://registry.xxx.com
-$ iceworks config set unpkgHost https://unpkg.xxx.com
+$ appworks config set registry https://registry.xxx.com
+$ appworks config set unpkgHost https://unpkg.xxx.com
 # 确认是否生效
-$ iceworks config list
+$ appworks config list
 ```
 
-如此配置之后，在当前电脑执行 iceworks 相关命令都会使用该配置。
+如此配置之后，在当前电脑执行 appworks 相关命令都会使用该配置。
 
 ### 项目级配置
 
@@ -50,7 +50,7 @@ $ iceworks config list
 }
 ```
 
-如此配置之后，在当前物料源项目执行 iceworks 相关命令会使用该字段。
+如此配置之后，在当前物料源项目执行 appworks 相关命令会使用该字段。
 
 ## 物料数据托管
 

@@ -3,11 +3,11 @@ title: 物料数据协议
 order: 2
 ---
 
-ICE 物料数据协议是一套通用的描述物料元数据的标准格式，协议约定了物料的类型、名称、物料数据、存储位置等信息，通过这套数据协议，用户可以将自己开发的物料接入 iceworks 方便使用。目前基于 ICE 物料数据协议实现了 react-materials 和 vue-materials 两个官方物料。
+ICE 物料数据协议是一套通用的描述物料元数据的标准格式，协议约定了物料的类型、名称、物料数据、存储位置等信息，通过这套数据协议，用户可以将自己开发的物料接入 AppWorks 方便使用。目前基于 ICE 物料数据协议实现了 react-materials 和 vue-materials 两个官方物料。
 
 ## 物料数据结构
 
-生成物料数据可通过 `iceworks generate` 命令生成，具体过程可参考[《物料数据生成》](/materials/guide/generate.md)。生成的数据将被存储到 `build/materials.json` 文件中，该文件包含以下字段的数据：
+生成物料数据可通过 `appworks generate` 命令生成，具体过程可参考[《物料数据生成》](/materials/guide/generate.md)。生成的数据将被存储到 `build/materials.json` 文件中，该文件包含以下字段的数据：
 
 - type `{string}`：（必选）指定物料类型，来源自 `package.json` 中的 `materialConfig`，例如： react、vue、angular、bootstrap 等
 - name `{string}`：（必选）物料名称，来源自 `package.json` 中的 `name` 字段
