@@ -10,7 +10,8 @@
       <div class="material-describe">
         <h4 class="title">海量物料</h4>
         <p class="detail">提供多种垂直领域模板和区块，快速创建项目，支持风格切换，满足个性化需求。</p>
-        <quick-start text="使用物料" link="/pack/basic/materials" />
+        <quick-start text="使用物料" type="primary" link="/pack/basic/materials" />
+        <quick-start text="开发自定义物料" type="primary" link="/materials/about" />
         <nav-links class="material-nav" :navItems="materialNavItems" />
       </div>
     </div>

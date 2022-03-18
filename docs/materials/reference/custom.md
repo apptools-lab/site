@@ -3,11 +3,11 @@ title: 自定义物料模版
 order: 5
 ---
 
-iceworks 初始化物料项目时可以选择一些内置的模板，同样也可以使用/开发自定义的模板。
+appworks 初始化物料项目时可以选择一些内置的模板，同样也可以使用/开发自定义的模板。
 
 ## 已支持模板
 
-目前，基于 iceworks 可以使用的物料模板列表如下：
+目前，基于 appworks 可以使用的物料模板列表如下：
 
 | 模板 npm 包名                             | 是否内置 | 说明             | 备注               |
 | ----------------------------------------- | -------- | ---------------- | ------------------ |
@@ -18,7 +18,7 @@ iceworks 初始化物料项目时可以选择一些内置的模板，同样也�
 | @icedesign/template-rax-js                | 否       | Rax+JavaScript   |                    |
 | @icedesign/material-chart-template        | 否       | React+图表       | 仅支持业务组件开发 |
 
-对于 CLI init 时没有询问的模板，可以通过 `iceworks init material @icedesign/material-chart-template` 的方式自定义模板名称。
+对于 CLI init 时没有询问的模板，可以通过 `appworks init material @icedesign/material-chart-template` 的方式自定义模板名称。
 
 ## 开发自定义物料模板
 
@@ -46,11 +46,11 @@ iceworks 初始化物料项目时可以选择一些内置的模板，同样也�
 
 ### 模板文件
 
-物料模版 `template/` 目录下包含 `block`、`component`，`page` 和 `scaffold` 四个子目录，它们即物料的模版文件，iceworks 获取到物料模版后，也是根据这四个文件生成对应的区块、组件和项目代码。
+物料模版 `template/` 目录下包含 `block`、`component`，`page` 和 `scaffold` 四个子目录，它们即物料的模版文件，appworks 获取到物料模版后，也是根据这四个文件生成对应的区块、组件和项目代码。
 
 ### 模板语法
 
-在 iceworks 执行 `init` 命令时，iceworks 会根据用户输入生成初始代码。这是因为在物料模版中，我们使用了 [ejs](https://ejs.co/) 语法将用户输入注入到模版中，再渲染生成初始代码。以官方 React 模版为例，以下是组件模版的模版代码：
+在 appworks 执行 `init` 命令时，appworks 会根据用户输入生成初始代码。这是因为在物料模版中，我们使用了 [ejs](https://ejs.co/) 语法将用户输入注入到模版中，再渲染生成初始代码。以官方 React 模版为例，以下是组件模版的模版代码：
 
 ```javascript
 // https://github.com/alibaba/ice/blob/master/templates/ice-react-material-template/template/component/src/index.js
@@ -67,9 +67,9 @@ export default class <%= className %> extends Component {
 }
 ```
 
-iceworks 下载物料模版后，会遍历模版文件，按 ejs 语法重新生成初始代码，这意味着开发者可以在模版的任意文件中使用 ejs 语法编写物料模版（markdown、js、scss etc）。
+appworks 下载物料模版后，会遍历模版文件，按 ejs 语法重新生成初始代码，这意味着开发者可以在模版的任意文件中使用 ejs 语法编写物料模版（markdown、js、scss etc）。
 
-iceworks 根据用户输入，提供了以下变量供物料模版开发者使用：
+appworks 根据用户输入，提供了以下变量供物料模版开发者使用：
 
 - `title`：用户输入的 title，一般用于 README 标题
 - `className`：首字母大写的驼峰式组件名，eg：ProfileCard
@@ -86,7 +86,7 @@ iceworks 根据用户输入，提供了以下变量供物料模版开发者使�
 
 在 `block`、`component`、`page` 和 `scaffold` 三个目录下，是没有 `package.json` 的，但有一个 `_package.json` 文件，这个 `_package.json` 即物料的 `package.json` 模版，在文件内部同样使用以上 ejs 语法。使用下划线前缀的主要目的是与 npm package.json 区分，以免安装时被 npm 解析。
 
-`_gitignore` 则在物料被使用时被解析为 `.gitignore` 文件，在 iceworks 中并不处理。
+`_gitignore` 则在物料被使用时被解析为 `.gitignore` 文件，在 appworks 中并不处理。
 
 ## 如何使用物料模版
 
@@ -94,7 +94,7 @@ iceworks 根据用户输入，提供了以下变量供物料模版开发者使�
 
 ```bash
 # 通过 npm 包
-$ iceworks init material my-material-template
+$ appworks init material my-material-template
 # 通过相对路径
-$ iceworks init material ../ice-chart-template
+$ appworks init material ../ice-chart-template
 ```

@@ -27,7 +27,7 @@ order: 7
 
 ![](https://img.alicdn.com/tfs/TB1AYmMcwKG3KVjSZFLXXaMvXXa-2710-906.png)
 
-复制 token，在终端执行 `iceworks sync`，第一次执行 sync 时根据提示填写 token 信息，然后选择需要发布物料的站点即可开始同步物料数据。当物料同步完成后，会获得物料源地址：
+复制 token，在终端执行 `appworks sync`，第一次执行 sync 时根据提示填写 token 信息，然后选择需要发布物料的站点即可开始同步物料数据。当物料同步完成后，会获得物料源地址：
 
 ![](https://img.alicdn.com/tfs/TB1TAGzbkxz61VjSZFrXXXeLFXa-1562-506.png)
 

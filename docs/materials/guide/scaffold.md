@@ -5,10 +5,10 @@ order: 5
 
 > 推荐直接使用飞冰官方提供的模板，如果官方模板不能满足团队诉求，可以通过开发自定义的模板（即项目脚手架）。
 
-通过 `iceworks` 命令添加模板：
+通过 `appworks` 命令添加模板：
 
 ```bash
-$ iceworks add scaffold
+$ appworks add scaffold
 ```
 
 完成后，在 `scaffolds/` 目录下会生成脚手架文件结构。
