@@ -19,7 +19,7 @@ export default {
       type: String,
       require: false,
       default: 'normal',
-    }
+    },
   },
 };
 </script>
